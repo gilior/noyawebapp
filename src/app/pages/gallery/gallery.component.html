@@ -1,0 +1,71 @@
+<!-- Image Grid -->
+    <div class="row g-4">
+        <div *ngFor="let image of displayedImages; let i = index" class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm gallery-card">
+                <div class="gallery-img-container" [style.background-image]="'url(' + image + ')'"
+                    (click)="openImageModal(i)">
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-truncate" i18n>Image {{i + 1}}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" (click)="openImageModal(i)" i18n>
+                                View
+                            </button>
+                            <a [href]="image" class="btn btn-sm btn-outline-secondary" target="_blank" download i18n>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading spinner shown when loading more images -->
+    <div *ngIf="loading" class="text-center mt-4">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden" i18n>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Load More Button -->
+    <div *ngIf="hasMoreImages" class="text-center mt-4">
+        <button class="btn btn-primary" (click)="loadMoreImages()" [disabled]="loading" i18n>
+            Load More
+        </button>
+    </div>
+
+    <!-- No Results Message -->
+    <div *ngIf="displayedImages.length === 0 && !loading" class="alert alert-info mt-4 text-center" i18n>
+        No images found matching your search.
+    </div>
+
+<!-- Image Modal using NgbModal -->
+<ng-template #imageModal let-modal>
+    <div class="modal-header">
+        <h5 class="modal-title" i18n>Image {{currentImageIndex + 1}}</h5>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss()"></button>
+    </div>
+    <div class="modal-body p-0">
+        <div class="image-modal-container">
+            <!-- Navigation Arrows -->
+            <button *ngIf="currentImageIndex > 0" class="btn btn-dark btn-nav btn-prev" (click)="showPreviousImage()">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+
+            <img [src]="currentImage" class="img-fluid modal-img" alt="Full size image">
+
+            <button *ngIf="currentImageIndex < displayedImages.length - 1" class="btn btn-dark btn-nav btn-next"
+                (click)="showNextImage()">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a [href]="currentImage" class="btn btn-primary" target="_blank" download>
+            <i class="bi bi-download me-1"></i><span i18n> Download</span>
+        </a>
+        <button type="button" class="btn btn-secondary" (click)="modal.close()" i18n>Close</button>
+    </div>
+</ng-template>

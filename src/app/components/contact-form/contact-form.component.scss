@@ -1,0 +1,113 @@
+.contact-wrapper {
+    background: linear-gradient(135deg, #7198dd 0%, #5a7dbf 100%);
+    border-radius: 15px;
+    padding: 3rem 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+        transform: rotate(30deg);
+        pointer-events: none;
+    }
+}
+
+.contact-info {
+    h3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; // Or a better font if available
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    p {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        i {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.glass-form {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+.form-floating {
+    margin-bottom: 1rem;
+
+    .form-control {
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+
+        &:focus {
+            background: #fff;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+            border-color: #fff;
+        }
+
+        &.is-invalid {
+            border-color: #dc3545;
+            background-image: none; // Remove default bootstrap validation icon if it clashes
+        }
+        
+        &.is-valid {
+            border-color: #198754;
+            background-image: none;
+        }
+    }
+
+    label {
+        color: #555;
+    }
+}
+
+.btn-artistic {
+    background: #fff;
+    color: #5a7dbf;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        background: #f0f4ff;
+        color: #4a69a5;
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+}
+
+.alert {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}

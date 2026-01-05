@@ -1,0 +1,24 @@
+<div class="radio-container p-4 rounded shadow-sm" *ngIf="track">
+    <div class="row align-items-center">
+        <div class="col-lg-4 col-md-5 text-center mb-3 mb-md-0">
+            <div class="album-art-container">
+                <img class="img-fluid album-art"
+                    [src]="track.imageSrc"
+                    alt="Album Art">
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-7">
+            <div class="track-info text-center text-md-start mb-4">
+                <h3 class="track-title mb-2">{{ track.title }}</h3>
+                <p class="track-artist mb-2">{{ track.artist }}</p>
+                <p class="track-details small text-muted mb-1">{{ track.details }}</p>
+                <p class="track-album small text-muted mb-0">{{ track.album }}</p>
+            </div>
+            <div class="player-wrapper">
+                <audio controls class="w-100 custom-audio" [src]="track.audioSrc">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</div>

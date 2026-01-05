@@ -1,0 +1,87 @@
+.radio-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin: 2rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.album-art-container {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular vinyl look */
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 4px solid #fff;
+    
+    /* Optional: Add a spinning animation if you want it to look like a record spinning
+       Note: This would ideally be controlled by play state class */
+    /* animation: spin 10s linear infinite; */
+    
+    .album-art {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    &:hover .album-art {
+        transform: scale(1.05);
+    }
+}
+
+.track-info {
+    .track-title {
+        font-family: 'Georgia', serif; /* Fallback to serif for artistic feel */
+        font-weight: 700;
+        color: #2c3e50;
+        font-size: 1.5rem;
+    }
+    
+    .track-artist {
+        font-weight: 500;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.85rem;
+    }
+
+    .track-details, .track-album {
+        font-style: italic;
+    }
+}
+
+.custom-audio {
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    
+    &::-webkit-media-controls-panel {
+        background-color: #f8f9fa;
+    }
+    
+    &::-webkit-media-controls-play-button {
+        background-color: #e9ecef;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .album-art-container {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .track-info .track-title {
+        font-size: 1.25rem;
+    }
+}

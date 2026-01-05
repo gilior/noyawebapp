@@ -1,0 +1,51 @@
+.gallery-img-container {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.gallery-img-container:hover {
+  transform: scale(1.03);
+}
+
+.gallery-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.image-modal-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.modal-img {
+  max-height: 80vh;
+}
+
+.btn-nav {
+  position: absolute;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.btn-nav:hover {
+  opacity: 1;
+}
+
+.btn-prev {
+  left: 10px;
+}
+
+.btn-next {
+  right: 10px;
+}

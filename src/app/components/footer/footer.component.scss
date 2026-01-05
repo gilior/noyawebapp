@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+
+  .social-icon {
+    transition: all 0.3s ease;
+    display: inline-block;
+    opacity: 0.8;
+
+    &:hover {
+      transform: translateY(-3px);
+      opacity: 1;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+  }
+}

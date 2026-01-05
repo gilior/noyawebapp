@@ -1,0 +1,18 @@
+.review-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    }
+
+    .bi-quote {
+        z-index: 0;
+        font-family: bootstrap-icons !important;
+    }
+    
+    .card-text {
+        position: relative;
+        z-index: 1;
+    }
+}

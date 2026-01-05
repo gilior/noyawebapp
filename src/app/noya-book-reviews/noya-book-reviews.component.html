@@ -1,0 +1,22 @@
+<div class="container py-5">
+  <div class="row g-4">
+    @for (item of items; track $index) {
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 review-card border-0 shadow-sm">
+          <div class="card-body p-4 d-flex flex-column">
+            <div class="quote-icon mb-2">
+              <i class="bi bi-quote"></i>
+            </div>
+            <p class="review-content flex-grow-1 mb-4">
+              {{ item.content }}
+            </p>
+            <div class="reviewer-info mt-auto pt-3">
+              <h5 class="reviewer-name mb-1">{{ item.reviewer }}</h5>
+              <p class="reviewer-platform mb-0">{{ item.platform }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

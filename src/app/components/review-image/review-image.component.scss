@@ -1,0 +1,38 @@
+.review-image-container {
+    padding: 2rem 0;
+}
+
+.image-wrapper {
+    // Formal look: No rotation, subtle transition
+    transition: all 0.3s ease-in-out;
+    max-width: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.08); // Very subtle border
+    padding: 15px; // White frame/mat around the letter
+    
+    // "Stacked" paper effect for artistic touch
+    box-shadow: 
+        0 1px 1px rgba(0,0,0,0.1), 
+        0 8px 0 -4px #f8f9fa, 
+        0 8px 1px -3px rgba(0,0,0,0.1),
+        0 16px 0 -8px #e9ecef, 
+        0 16px 1px -7px rgba(0,0,0,0.1);
+
+    &:hover {
+        transform: translateY(-2px);
+        // Enhance shadow on hover
+        box-shadow: 
+            0 10px 20px rgba(0,0,0,0.12), 
+            0 8px 0 -4px #f8f9fa, 
+            0 8px 1px -3px rgba(0,0,0,0.1),
+            0 16px 0 -8px #e9ecef, 
+            0 16px 1px -7px rgba(0,0,0,0.1);
+    }
+
+    img {
+        max-height: 800px; // Allow reading the letter
+        object-fit: contain;
+        display: block;
+        border: 1px solid #eee; // Define the edge of the paper
+    }
+}

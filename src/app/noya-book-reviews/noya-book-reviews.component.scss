@@ -1,0 +1,139 @@
+.review-card {
+  background: #ffffff;
+  border-radius: 16px;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+
+  // Artistic top border accent
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, rgb(25, 54, 105) 0%, rgba(25, 54, 105, 0.3) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+
+    &::before {
+      opacity: 1;
+    }
+
+    .quote-icon i {
+      color: rgb(25, 54, 105);
+      transform: scale(1.1) rotate(-5deg);
+    }
+  }
+}
+
+.quote-icon {
+  i {
+    font-size: 3rem;
+    line-height: 1;
+    color: rgba(25, 54, 105, 0.15); // Very subtle version of main color
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+}
+
+.review-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  font-style: italic;
+  font-family: serif; // Gives it a more "bookish" feel
+}
+
+.reviewer-info {
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.reviewer-name {
+  color: rgb(25, 54, 105);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
+}
+
+.reviewer-platform {
+  color: #888;
+  font-size: 0.85rem;
+  text-// filepath: c:\Repos\noyaWebApp\src\app\noya-book-reviews\noya-book-reviews.component.scss
+.review-card {
+  background: #ffffff;
+  border-radius: 16px;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+
+  // Artistic top border accent
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, rgb(25, 54, 105) 0%, rgba(25, 54, 105, 0.3) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+
+    &::before {
+      opacity: 1;
+    }
+
+    .quote-icon i {
+      color: rgb(25, 54, 105);
+      transform: scale(1.1) rotate(-5deg);
+    }
+  }
+}
+
+.quote-icon {
+  i {
+    font-size: 3rem;
+    line-height: 1;
+    color: rgba(25, 54, 105, 0.15); // Very subtle version of main color
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+}
+
+.review-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  font-style: italic;
+  font-family: serif; // Gives it a more "bookish" feel
+}
+
+.reviewer-info {
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.reviewer-name {
+  color: rgb(25, 54, 105);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
+}
+
+.reviewer-platform {
+  color: #888;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 500;
+}}

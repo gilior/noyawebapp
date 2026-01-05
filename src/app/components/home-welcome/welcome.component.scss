@@ -1,0 +1,77 @@
+// Import artistic fonts
+
+.welcome-section {
+  position: relative;
+  overflow: hidden;
+  
+  // Subtle gradient to add depth to the flat color
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.05), transparent);
+
+  .decorative-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      right: -20px;
+      bottom: -20px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+    }
+  }
+
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .icon-wrapper {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1rem;
+    
+    i {
+      font-size: 2.5rem;
+    }
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .welcome-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    
+    p {
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  .signature-block {
+    .signature-name {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #d4af37; // Gold-ish color
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      display: inline-block;
+      transform: rotate(-5deg);
+      margin-top: 0.5rem;
+    }
+  }
+}

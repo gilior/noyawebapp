@@ -1,0 +1,115 @@
+
+:host {
+  display: block;
+}
+
+.row {
+}
+
+.card-image-col {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px; // Ensure visibility even if image fails or on mobile
+  padding: 0; // Ensure no padding
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s cubic-bezier(0.2, 1, 0.2, 1), filter 0.5s ease;
+    filter: brightness(0.95) grayscale(10%); // Slightly artistic initial state
+    display: block; // Remove inline-block gaps
+  }
+
+  &:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.05) grayscale(0%);
+  }
+}
+
+.card-text-col {
+  padding: 3rem 2rem; // More breathing room
+  background-color: rgb(25, 54, 105); // Fallback
+  // Subtle gradient for depth
+  background: linear-gradient(145deg, rgb(25, 54, 105) 0%, rgb(20, 45, 90) 100%);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background 0.3s ease;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
+    color: #fff;
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 1px;
+      background-color: rgba(255,255,255,0.5);
+      margin: 15px auto 0;
+      transition: width 0.4s ease;
+    }
+  }
+
+  &:hover h2::after {
+    width: 80px;
+    background-color: #fff;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 1.5rem;
+    max-width: 90%; // Prevent text from hitting edges too hard
+  }
+
+  a {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 50px; // Pill shape
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: rgb(25, 54, 105);
+      border-color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  }
+
+  div{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.9);
+    max-width: 90%; // Prevent text from hitting edges too hard
+  }
+}
+
+// Mobile adjustments
+@media (max-width: 991.98px) {
+  .card-image-col {
+    min-height: 250px;
+  }
+  .card-text-col {
+    padding: 2rem 1rem;
+  }
+}

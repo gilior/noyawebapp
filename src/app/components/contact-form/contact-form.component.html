@@ -1,0 +1,116 @@
+<div class="row mt-4 text-white contact-wrapper">
+    <div class="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center contact-info mb-4 mb-lg-0">
+        <h3 i18n class="display-4">Contact</h3>
+        <div class="d-flex flex-column align-items-start">
+            <p i18n><i class="bi bi-envelope-fill me-2"></i> noyaschleien&#64;gmail.com</p>
+            <p i18n><i class="bi bi-telephone-fill me-2"></i> +972544715150</p>
+        </div>
+    </div>
+    <div class="col-12 col-lg-7">
+        <div class="glass-form">
+            <form [formGroup]="profileForm" (ngSubmit)="onSubmit()" class="row g-3 needs-validation" novalidate>
+                
+                <!-- First Name -->
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="firstName" formControlName="firstName" placeholder="First name"
+                            [class.is-invalid]="isInvalid('firstName')" [class.is-valid]="isValid('firstName')">
+                        <label for="firstName" i18n>First name</label>
+                        <div class="valid-feedback" i18n>Looks good!</div>
+                    </div>
+                </div>
+
+                <!-- Last Name -->
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="lastName" formControlName="lastName" placeholder="Last name"
+                            [class.is-invalid]="isInvalid('lastName')" [class.is-valid]="isValid('lastName')">
+                        <label for="lastName" i18n>Last name</label>
+                        <div class="valid-feedback" i18n>Looks good!</div>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" formControlName="email" placeholder="name@example.com"
+                            [class.is-invalid]="isInvalid('email')" [class.is-valid]="isValid('email')">
+                        <label for="email" i18n>Email address</label>
+                        <div class="valid-feedback" i18n>Looks good!</div>
+                    </div>
+                </div>
+
+                <!-- Address Group -->
+                <div class="col-12" formGroupName="address">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="city" formControlName="city" placeholder="City">
+                                <label for="city" i18n>City</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="street" formControlName="street" placeholder="Street">
+                                <label for="street" i18n>Street</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subject -->
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="subject" formControlName="subject" placeholder="Subject">
+                        <label for="subject" i18n>Subject</label>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" id="message" formControlName="message" placeholder="Leave a message here" style="height: 150px"
+                            [class.is-invalid]="isInvalid('message')" [class.is-valid]="isValid('message')"></textarea>
+                        <label for="message" i18n>Message</label>
+                        <div class="valid-feedback" i18n>Looks good!</div>
+                    </div>
+                </div>
+
+                <!-- Verification Code -->
+                <div class="col-12" *ngIf="showVerificationField()">
+                    <div class="form-floating">
+                        <input class="form-control" [maxLength]="6" [minlength]="6" id="code" formControlName="code" type="text" placeholder="123456"
+                            [class.is-invalid]="isInvalid('code')" [class.is-valid]="isValid('code')">
+                        <label for="code" i18n>Verification Code (sent to your email)</label>
+                        <div class="valid-feedback" i18n>Looks good!</div>
+                        <div class="invalid-feedback" i18n>Almost :)</div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 d-flex justify-content-center mt-4">
+                    <ng-container *ngIf="showVerificationField(); else checkEmail">
+                        <button class="btn btn-artistic" type="submit" i18n>Submit To Noya</button>
+                    </ng-container>
+                    <ng-template #checkEmail>
+                        <button class="btn btn-artistic" type="submit" i18n>Submit (and check your email...)</button>
+                    </ng-template>
+                </div>
+            </form>
+
+            <!-- Alerts -->
+            <div class="d-flex justify-content-center w-100 mt-3">
+                <div *ngIf="submissionSuccessful()" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong i18n>Success! </strong> <span i18n>Your message has been sent to Noya successfully.</span>
+                    <button type="button" class="btn-close" (click)="submissionSuccessful.set(false)" aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center w-100 mt-3">
+                <div *ngIf="submissionError()" class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong i18n>Sorry! </strong> <span i18n>We couldn't send your message. Please try again later.</span>
+                    <button type="button" class="btn-close" (click)="submissionError.set(false)" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

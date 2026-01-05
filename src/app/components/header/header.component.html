@@ -1,0 +1,94 @@
+<div class="row bg-main sticky-lg-top">
+        <div class="col">
+                <div
+                        class="header_container d-none d-lg-flex w-100 justify-content-between text-white align-items-center p-3">
+                        <div class="header_container_name" i18n>Noya Schleien</div>
+                        <div class="header_container_lang">
+                                <a class="btn btn-outline-info btn-sm text-white border-white"
+                                        href="http://he.noyaschleien.com/" i18n>עברית</a>
+                        </div>
+                </div>
+                <nav class="navbar navbar-expand-lg">
+                        <div class="w-100">
+                                <div class="d-xs-block d-lg-none" i18n>Noya Schleien</div>
+                                <div>
+                                        <a class="btn btn-outline-info d-lg-none" href="http://he.noyaschleien.com/"
+                                                i18n>English</a>
+
+                                        <button [class.collapsed]="collapsed" (click)="collapsed = !collapsed"
+                                                class="navbar-toggler" type="button" aria-controls="navbarContent"
+                                                [attr.aria-expanded]="!collapsed" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                </div>
+
+                                <div class="navbar-collapse justify-content-between" [class.collapse]="collapsed" id="navbarContent">
+                                        <ul class="navbar-nav mb-2 mb-lg-0">
+                                                <li><a (click)="collapsed = true" class="nav-link" routerLink="/home"
+                                                                routerLinkActive="active" ariaCurrentWhenActive="page"
+                                                                i18n>Home</a>
+
+                                                </li>
+                                                <li><a (click)="collapsed = true" class="nav-link"
+                                                                routerLink="/concerts" routerLinkActive="active"
+                                                                ariaCurrentWhenActive="page" i18n>Concerts</a>
+                                                </li>
+                                                <li><a (click)="collapsed = true" class="nav-link"
+                                                                routerLink="/lectures" routerLinkActive="active"
+                                                                ariaCurrentWhenActive="page" i18n>Lectures</a>
+                                                </li>
+                                                <li><a (click)="collapsed = true" class="nav-link"
+                                                                routerLink="/workshops" routerLinkActive="active"
+                                                                ariaCurrentWhenActive="page" i18n>Workshops</a>
+                                                </li>
+                                                <li><a (click)="collapsed = true" class="nav-link" routerLink="/book"
+                                                                routerLinkActive="active" ariaCurrentWhenActive="page"
+                                                                i18n>Book</a></li>
+                                                <li><a (click)="collapsed = true" class="nav-link" routerLink="/bio"
+                                                                routerLinkActive="active" ariaCurrentWhenActive="page"
+                                                                i18n>Bio</a></li>
+                                                <li><a (click)="collapsed = true" class="nav-link" routerLink="/videos"
+                                                                routerLinkActive="active" ariaCurrentWhenActive="page"
+                                                                i18n>Videos</a></li>
+                                                <li><a (click)="collapsed = true" class="nav-link" routerLink="/gallery"
+                                                                routerLinkActive="active" ariaCurrentWhenActive="page"
+                                                                i18n>Gallery</a>
+                                                </li>
+                                                <li><a (click)="collapsed = true" class="nav-link"
+                                                                routerLink="/communities" routerLinkActive="active"
+                                                                ariaCurrentWhenActive="page" i18n>Communities</a>
+                                                </li>
+                                                <li><a (click)="collapsed = !collapsed" class="nav-link"
+                                                                routerLink="/contact" routerLinkActive="active"
+                                                                ariaCurrentWhenActive="page" i18n>Contact</a>
+                                                </li>
+                                        </ul>
+                                        <div class="d-flex align-items-center">
+                                                <a (click)="navigateWithToggle('https://www.youtube.com/user/noyaschleien')"
+                                                        href="https://www.youtube.com/user/noyaschleien" target="_blank"
+                                                        class="text-white me-3">
+                                                        <i class="bi bi-youtube"></i>
+                                                </a>
+                                                <a (click)="navigateWithToggle('https://www.facebook.com/noya.schleien')"
+                                                        href="https://www.facebook.com/noya.schleien" target="_blank"
+                                                        class="text-white me-3">
+                                                        <i class="bi bi-facebook"></i>
+                                                </a>
+                                                <a (click)="navigateWithToggle('https://il.linkedin.com/in/noya-schleien-43090352')"
+                                                        href="https://il.linkedin.com/in/noya-schleien-43090352"
+                                                        target="_blank" class="text-white me-3">
+                                                        <i class="bi bi-linkedin"></i>
+                                                </a>
+                                                <a (click)="navigateWithToggle('https://he.wikipedia.org/wiki/%D7%A0%D7%95%D7%99%D7%94_%D7%A9%D7%9C%D7%99%D7%99%D7%9F')"
+                                                        href="https://he.wikipedia.org/wiki/%D7%A0%D7%95%D7%99%D7%94_%D7%A9%D7%9C%D7%99%D7%99%D7%9F"
+                                                        target="_blank" class="text-white">
+                                                        <i class="bi bi-wikipedia"></i>
+                                                </a>
+
+                                        </div>
+                                </div>
+                        </div>
+                </nav>
+
+        </div>
+</div>

@@ -1,0 +1,64 @@
+<div class="row bg-black mt-4">
+	<div class="col text-center">
+		<section class="video-gallery py-5">
+			<div class="container">
+				<div *ngIf="loading"
+					class="d-flex flex-column align-items-center gap-3 bg-light rounded-4 p-4 text-muted mb-4">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Loading...</span>
+					</div>
+					<p class="mb-0">Loading the latest videos...</p>
+				</div>
+
+				<div *ngIf="!loading && errorMessage" class="alert alert-danger" role="alert">
+					{{ errorMessage }}
+				</div>
+
+				<ng-container *ngIf="!loading && !errorMessage">
+					<section class="row g-4 align-items-center mb-5" *ngIf="selectedVideo">
+						<div class="col-lg-7">
+							<div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
+								<iframe [src]="selectedVideoUrl" title="YouTube video player" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+						<div class="col-lg-5 text-lg-end text-white">
+							<p class="text-uppercase text-primary fw-semibold small mb-2">Now Playing</p>
+							<h3 class="h2">{{ selectedVideo.title }}</h3>
+							<p class="text-primary mb-3" *ngIf="selectedVideo.publishedAt">
+								{{ selectedVideo.publishedAt | date: 'MMM d, y' }}
+							</p>
+							<p class="d-none d-xl-block" *ngIf="selectedVideo.description">
+								{{ selectedVideo.description }}
+							</p>
+						</div>
+					</section>
+
+					<div class="video-carousel d-flex flex-nowrap gap-3 overflow-auto pb-2"
+						aria-label="Video gallery carousel">
+						<article class="flex-shrink-0" *ngFor="let video of videos; trackBy: trackByVideoId">
+							<div class="video-card card h-100 border shadow-sm" (click)="selectVideo(video)"
+								(keyup.enter)="selectVideo(video)" (keyup.space)="selectVideo(video)" tabindex="0"
+								role="button" [class.border-primary]="video.id === selectedVideo?.id"
+								[class.border-2]="video.id === selectedVideo?.id"
+								[class.shadow-lg]="video.id === selectedVideo?.id">
+								<div class="ratio ratio-16x9 bg-light rounded-top position-relative overflow-hidden">
+									<img [src]="video.thumbnail" [alt]="video.title" loading="lazy"
+										class="w-100 h-100 object-fit-cover" />
+
+								</div>
+								<div class="card-body">
+									<h4 class="h6 mb-2">{{ video.title }}</h4>
+									<p class="small mb-0" *ngIf="video.publishedAt">
+										{{ video.publishedAt | date: 'MMM d, y' }}
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</ng-container>
+			</div>
+		</section>
+	</div>
+</div>

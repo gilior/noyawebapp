@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+
+// Your variable overrides
+$hr-margin-y:5px;
+
+// Bootstrap and its default variables 
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// Import shared styles
+@import 'shared';

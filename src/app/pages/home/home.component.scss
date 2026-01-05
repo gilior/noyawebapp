@@ -1,0 +1,34 @@
+
+.overlay {
+    width: 100%;
+    height: 25%; 
+    background: rgba(237, 237, 238, 0.4); 
+}
+
+.overlay-icon{
+    // background: rgba(237, 237, 238, 0.2);
+}
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  background: rgba(237, 237, 238, 0.4); /* Black see-through */
+}
+
+

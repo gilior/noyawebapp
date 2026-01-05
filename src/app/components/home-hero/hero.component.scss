@@ -1,0 +1,70 @@
+.hero-container {
+    height: 85vh; /* Occupy most of the screen height for impact */
+}
+
+.hero-image {
+    object-fit: cover;
+    /* Adjust position to focus on the artist based on the original image focal point */
+    object-position: 50% 37%; 
+    opacity: 0.9; /* Slight dim to help with text contrast if needed, or keep 1 */
+    transition: transform 10s ease; /* Subtle zoom effect */
+}
+
+.hero-container:hover .hero-image {
+    transform: scale(1.05); /* Slow zoom on hover for dynamic feel */
+}
+
+.hero-overlay {
+    /* Gradient to make text readable at the bottom, fading to transparent at top */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%);
+}
+
+.hero-content {
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.artist-name {
+    font-family: 'Garamond', 'Georgia', serif; /* Elegant serif font */
+    font-size: 4.5rem;
+    font-weight: 400; /* Lighter weight for elegance */
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-bottom: 2px solid rgba(255,255,255,0.3); /* Artistic underline */
+}
+
+.artist-title {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif; /* Clean sans-serif */
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-container {
+        height: 60vh;
+    }
+    
+    .artist-name {
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    
+    .artist-title {
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+    }
+}

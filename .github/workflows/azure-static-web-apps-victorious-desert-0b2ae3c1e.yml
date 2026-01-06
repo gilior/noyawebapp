@@ -32,8 +32,8 @@ jobs:
           api_location: "api" # Api source code path - optional
           # Added build command to ensure we build the English version
           app_build_command: "npm run build:en"
-          # Updated output location to match the build:en output
-          output_location: "dist/noya-web-app/en/browser"
+          # Updated output location to match the build:en output (trying parent folder)
+          output_location: "dist/noya-web-app/en"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:

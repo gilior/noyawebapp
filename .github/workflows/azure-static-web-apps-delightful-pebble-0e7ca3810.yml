@@ -36,14 +36,13 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          # Token added directly here
-          azure_static_web_apps_api_token: "9ab9859380794d8415ab3c17c477c8bcbf44395734aac33235c7f5dc9bb8fab606-2f00a15d-cecf-43a1-9361-6195f08d66d701e130904297981e"
+          azure_static_web_apps_api_token: "baa83a292372aead3a6aaf77db1a586776636ed36c9a9e4c9f8b0a1a63325d0a04-f788f9fc-ba90-449b-a5e8-ef587109e73801e03270f785731e"
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "dist/noya-web-app/en/browser" # Built app content directory - optional
+          output_location: "dist/noya-web-app/en" # Built app content directory - optional
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
 

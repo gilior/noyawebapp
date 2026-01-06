@@ -23,7 +23,6 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          # Paste the *correct* token for "victorious-desert" here
           azure_static_web_apps_api_token: "9ab9859380794d8415ab3c17c477c8bcbf44395734aac33235c7f5dc9bb8fab606-2f00a15d-cecf-43a1-9361-6195f08d66d701e130904297981e"
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
@@ -31,7 +30,10 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           api_location: "api" # Api source code path - optional
-          output_location: "dist/noya-web-app" # Built app content directory - optional
+          # Added build command to ensure we build the English version
+          app_build_command: "npm run build:en"
+          # Updated output location to match the build:en output
+          output_location: "dist/noya-web-app/en/browser"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
@@ -43,6 +45,5 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          # Also paste the token here for closing PRs
           azure_static_web_apps_api_token: "9ab9859380794d8415ab3c17c477c8bcbf44395734aac33235c7f5dc9bb8fab606-2f00a15d-cecf-43a1-9361-6195f08d66d701e130904297981e"
           action: "close"

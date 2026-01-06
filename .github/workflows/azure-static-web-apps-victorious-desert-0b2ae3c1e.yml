@@ -23,7 +23,8 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_DESERT_0B2AE3C1E }}
+          # Paste the *correct* token for "victorious-desert" here
+          azure_static_web_apps_api_token: "9ab9859380794d8415ab3c17c477c8bcbf44395734aac33235c7f5dc9bb8fab606-2f00a15d-cecf-43a1-9361-6195f08d66d701e130904297981e"
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
@@ -42,5 +43,6 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_DESERT_0B2AE3C1E }}
+          # Also paste the token here for closing PRs
+          azure_static_web_apps_api_token: "9ab9859380794d8415ab3c17c477c8bcbf44395734aac33235c7f5dc9bb8fab606-2f00a15d-cecf-43a1-9361-6195f08d66d701e130904297981e"
           action: "close"

@@ -1126,6 +1126,20 @@
 
 </target>
       </trans-unit>
+
+      <!-- ...existing code... -->
+      <trans-unit id="desktopLanguageSwitcherText" datatype="html">
+        <source>עברית</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="mobileLanguageSwitcherText" datatype="html">
+        <source>עברית</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="languageSwitcherLink" datatype="html">
+        <source>http://50.63.8.92/plesk-site-preview/noyaschleien.com/he</source>
+        <target>http://50.63.8.92/plesk-site-preview/noyaschleien.com/en-US</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

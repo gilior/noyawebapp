@@ -7,8 +7,12 @@
         <target> סגור </target>
       </trans-unit>
       <trans-unit id="ngb.carousel.slide-number" datatype="html">
-        <source> Slide <x id="INTERPOLATION" equiv-text="OnFocus); priv"/> of <x id="INTERPOLATION_1" equiv-text="viorSubject(fal"/> </source>
-        <target> שקופית <x id="INTERPOLATION" equiv-text="OnFocus); priv"/> מתוך <x id="INTERPOLATION_1" equiv-text="viorSubject(fal"/> </target>
+        <source> Slide <x id="INTERPOLATION" equiv-text="OnFocus); priv" /> of <x
+            id="INTERPOLATION_1" equiv-text="viorSubject(fal" />
+        </source>
+        <target> שקופית <x id="INTERPOLATION" equiv-text="OnFocus); priv" /> מתוך <x
+            id="INTERPOLATION_1" equiv-text="viorSubject(fal" />
+        </target>
         <note priority="1" from="description">Currently selected slide number read by screen reader</note>
       </trans-unit>
       <trans-unit id="ngb.carousel.previous" datatype="html">
@@ -69,10 +73,10 @@
       </trans-unit>
       <trans-unit id="ngb.progressbar.value" datatype="html">
         <source>
-          <x id="INTERPOLATION" equiv-text="essible progres"/>
+          <x id="INTERPOLATION" equiv-text="essible progres" />
         </source>
         <target>
-          <x id="INTERPOLATION" equiv-text="essible progres"/>
+          <x id="INTERPOLATION" equiv-text="essible progres" />
         </target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
@@ -125,10 +129,10 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
         <source>
-          <x id="INTERPOLATION"/>
+          <x id="INTERPOLATION" />
         </source>
         <target>
-          <x id="INTERPOLATION"/>
+          <x id="INTERPOLATION" />
         </target>
       </trans-unit>
       <trans-unit id="ngb.toast.close-aria" datatype="html">
@@ -148,8 +152,11 @@
         <target> ניסיון </target>
       </trans-unit>
       <trans-unit id="68168218077712065" datatype="html">
-        <source>Creator, Soloist and Host of numerous shows, including shows in renowned festivals, Israel&apos;s national culture program, concerts with orchestras, dancers, theatre shows, and recitals recorded for the radio.</source>
-        <target>יוצרת, סולנית ומנחה של מופעים רבים, ביניהם מופעים במסגרת פסטיבלים ידועים, סל תרבות ארצי, קונצרטים עם תזמורות ורקדנים, הצגות תיאטרון ורסיטלים שהוקלטו לרדיו. </target>
+        <source>Creator, Soloist and Host of numerous shows, including shows in renowned festivals,
+          Israel&apos;s national culture program, concerts with orchestras, dancers, theatre shows,
+          and recitals recorded for the radio.</source>
+        <target>יוצרת, סולנית ומנחה של מופעים רבים, ביניהם מופעים במסגרת פסטיבלים ידועים, סל תרבות
+          ארצי, קונצרטים עם תזמורות ורקדנים, הצגות תיאטרון ורסיטלים שהוקלטו לרדיו. </target>
       </trans-unit>
       <trans-unit id="277263014082969389" datatype="html">
         <source>In her performance, Ms. Schleien combines music and dance in a unique way.</source>
@@ -160,67 +167,97 @@
         <target> ניגנה בכל אולמות הקונצרטים הגדולים ברחבי אירופה, סין, קוריאה וארגנטינה. </target>
       </trans-unit>
       <trans-unit id="3862272914902013243" datatype="html">
-        <source>In 2022, published her first book, Drum&apos;s House. An imaginative children&apos;s book, written in rhymes, about Percussion.</source>
-        <target> בשנת 2022, פרסמה את ספרה הראשון, בית התוף. ספר ילדים דמיוני, כתוב בחרוזים, על תופים. </target>
+        <source>In 2022, published her first book, Drum&apos;s House. An imaginative children&apos;s
+          book, written in rhymes, about Percussion.</source>
+        <target> בשנת 2022, פרסמה את ספרה הראשון, בית התוף. ספר ילדים דמיוני, כתוב בחרוזים, על
+          תופים. </target>
       </trans-unit>
       <trans-unit id="7417750090502779543" datatype="html">
-        <source>Created the most comprehensive series of videos made in Hebrew, on percussion instruments.</source>
+        <source>Created the most comprehensive series of videos made in Hebrew, on percussion
+          instruments.</source>
         <target> יצרה את סדרת הסרטונים המקיפה ביותר בעברית, על כלי הקשה. </target>
       </trans-unit>
       <trans-unit id="4767567971313916458" datatype="html">
-        <source>Founded the ensemble Kelim Shluvim (Communicating Vessels). A unique female ensemble of Flute, Cello and Marimba &amp; Percussion.</source>
+        <source>Founded the ensemble Kelim Shluvim (Communicating Vessels). A unique female ensemble
+          of Flute, Cello and Marimba &amp; Percussion.</source>
         <target> ייסדה את ההרכב כלים שלובים. הרכב נשים ייחודי של חליל, צ&apos;לו ומרימבה ותופים. </target>
       </trans-unit>
       <trans-unit id="624089988253887692" datatype="html">
-        <source>Begun lecturing on the topics Life&apos;s Rhythm, Arts &amp; Business, and Percussion.</source>
+        <source>Begun lecturing on the topics Life&apos;s Rhythm, Arts &amp; Business, and
+          Percussion.</source>
         <target> חלה להעניק הרצאות בנושאים קצב החיים, אמנויות ועסקים, וכלי הקשה. </target>
       </trans-unit>
       <trans-unit id="1090416461479019641" datatype="html">
-        <source>In the years 2010-2015, was a member of The West-Eastern Divan Orchestra, conducted by Maestro Daniel Barenboim.</source>
-        <target> בשנים 2010-2015, הייתה חברה בתזמורת דיבן המערב-מזרח, בניצוחו של המאסטרו דניאל ברנבוים. </target>
+        <source>In the years 2010-2015, was a member of The West-Eastern Divan Orchestra, conducted
+          by Maestro Daniel Barenboim.</source>
+        <target> בשנים 2010-2015, הייתה חברה בתזמורת דיבן המערב-מזרח, בניצוחו של המאסטרו דניאל
+          ברנבוים. </target>
       </trans-unit>
       <trans-unit id="6712696563675739923" datatype="html">
-        <source>During 2013, Ms. Schleien performed as a soloist with Maestro Barenboim and the orchestra, at the main Festivals in Lucerne, Salzburg and Stuttgart.</source>
-        <target> במהלך שנת 2013, גברת שליין הופיעה כסולנית עם המאסטרו ברנבוים והתזמורת, בפסטיבלים המרכזיים בלוצרן, זלצבורג ושטוטגרט. </target>
+        <source>During 2013, Ms. Schleien performed as a soloist with Maestro Barenboim and the
+          orchestra, at the main Festivals in Lucerne, Salzburg and Stuttgart.</source>
+        <target> במהלך שנת 2013, גברת שליין הופיעה כסולנית עם המאסטרו ברנבוים והתזמורת, בפסטיבלים
+          המרכזיים בלוצרן, זלצבורג ושטוטגרט. </target>
       </trans-unit>
       <trans-unit id="8262653253131316464" datatype="html">
-        <source>Ms. Schleien played chamber music with different ensembles from this orchestra in important international festivals, such as The Proms in London and the Louvre museum in Paris.</source>
-        <target> גברת שליין ניגנה מוזיקה קאמרית עם הרכבים שונים מתוך תזמורת זו בפסטיבלים בינלאומיים חשובים, כמו הפרומס בלונדון ומוזיאון הלובר בפריז. </target>
+        <source>Ms. Schleien played chamber music with different ensembles from this orchestra in
+          important international festivals, such as The Proms in London and the Louvre museum in
+          Paris.</source>
+        <target> גברת שליין ניגנה מוזיקה קאמרית עם הרכבים שונים מתוך תזמורת זו בפסטיבלים בינלאומיים
+          חשובים, כמו הפרומס בלונדון ומוזיאון הלובר בפריז. </target>
       </trans-unit>
       <trans-unit id="2629376398094572042" datatype="html">
-        <source>During 2010-2011, Ms. Schleien played in a chamber ensemble with members of The Staatsoper Berlin, conducted by Maestro Daniel Barenboim, playing Dérive 2, by Pierre Boulez.</source>
-        <target> במהלך השנים 2010-2011, גברת שליין ניגנה בהרכב קאמרי עם חברי האופרה הממלכתית של ברלין, בניצוחו של המאסטרו דניאל ברנבוים, ביצוע דה-ריב 2, מאת פייר בולז. </target>
+        <source>During 2010-2011, Ms. Schleien played in a chamber ensemble with members of The
+          Staatsoper Berlin, conducted by Maestro Daniel Barenboim, playing Dérive 2, by Pierre
+          Boulez.</source>
+        <target> במהלך השנים 2010-2011, גברת שליין ניגנה בהרכב קאמרי עם חברי האופרה הממלכתית של
+          ברלין, בניצוחו של המאסטרו דניאל ברנבוים, ביצוע דה-ריב 2, מאת פייר בולז. </target>
       </trans-unit>
       <trans-unit id="1133921335770102550" datatype="html">
-        <source>The concerts were held in the main concert halls in Berlin - Schiller Theater, Konzerthous Berlin and Berliner Philharmonie.</source>
-        <target> הקונצרטים התקיימו באולמות הקונצרטים המרכזיים בברלין - תיאטרון שילר, קונצרטהאוס ברלין ופילהרמוניה ברלין. </target>
+        <source>The concerts were held in the main concert halls in Berlin - Schiller Theater,
+          Konzerthous Berlin and Berliner Philharmonie.</source>
+        <target> הקונצרטים התקיימו באולמות הקונצרטים המרכזיים בברלין - תיאטרון שילר, קונצרטהאוס
+          ברלין ופילהרמוניה ברלין. </target>
       </trans-unit>
       <trans-unit id="7264219700556076894" datatype="html">
-        <source>Between 2009-2014, Ms. Schleien participated in the International Chamber Music Festival, held in Jerusalem, by Elena Bashkirova.</source>
-        <target> בין השנים 2009-2014, גברת שליין השתתפה בפסטיבל הבינלאומי למוזיקה קאמרית, שנערך בירושלים, על ידי אלנה בשקירובה. </target>
+        <source>Between 2009-2014, Ms. Schleien participated in the International Chamber Music
+          Festival, held in Jerusalem, by Elena Bashkirova.</source>
+        <target> בין השנים 2009-2014, גברת שליין השתתפה בפסטיבל הבינלאומי למוזיקה קאמרית, שנערך
+          בירושלים, על ידי אלנה בשקירובה. </target>
       </trans-unit>
       <trans-unit id="4382214221842916727" datatype="html">
-        <source>In 2009, had a solo performance at Mann Auditorium, in the Annual Gala Concert of The Israel Philharmonic Orchestra and The Buchmann-Mehta Symphony Orchestra, conducted by Maestro Zubin Mehta.</source>
-        <target> בשנת 2009, הייתה להופעה סולנית באודיטוריום מאן, בקונצרט הגאלה השנתי של התזמורת הפילהרמונית הישראלית ותזמורת בוכמן-מאטה, בניצוחו של המאסטרו זובין מהטה. </target>
+        <source>In 2009, had a solo performance at Mann Auditorium, in the Annual Gala Concert of
+          The Israel Philharmonic Orchestra and The Buchmann-Mehta Symphony Orchestra, conducted by
+          Maestro Zubin Mehta.</source>
+        <target> בשנת 2009, הייתה להופעה סולנית באודיטוריום מאן, בקונצרט הגאלה השנתי של התזמורת
+          הפילהרמונית הישראלית ותזמורת בוכמן-מאטה, בניצוחו של המאסטרו זובין מהטה. </target>
       </trans-unit>
       <trans-unit id="6770082589258701898" datatype="html">
-        <source>In the years 2008-2009, Ms. Schleien has participated in the Beit Lessin theater show &quot;Equss&quot; and performed in the TV show, Intermezzo with Arie Vardi, episode &quot;She is all rhythm&quot;.</source>
-        <target> בשנים 2008-2009, גברת שליין השתתפה במופע התיאטרון של בית לסין &quot;אקווס&quot; והופיעה בתוכנית הטלוויזיה, אינטרמצו עם אריה ורדי, פרק &quot;היא כל הקצב&quot;. </target>
+        <source>In the years 2008-2009, Ms. Schleien has participated in the Beit Lessin theater
+          show &quot;Equss&quot; and performed in the TV show, Intermezzo with Arie Vardi, episode
+          &quot;She is all rhythm&quot;.</source>
+        <target> בשנים 2008-2009, גברת שליין השתתפה במופע התיאטרון של בית לסין &quot;אקווס&quot;
+          והופיעה בתוכנית הטלוויזיה, אינטרמצו עם אריה ורדי, פרק &quot;היא כל הקצב&quot;. </target>
       </trans-unit>
       <trans-unit id="383368278746852722" datatype="html">
         <source>Prizes</source>
         <target> פרסים </target>
       </trans-unit>
       <trans-unit id="7689254783970130629" datatype="html">
-        <source>In 2008, won the First Prize at the Paul Ben-Haim competition, for playing Israeli music.</source>
+        <source>In 2008, won the First Prize at the Paul Ben-Haim competition, for playing Israeli
+          music.</source>
         <target> בשנת 2008, זכתה בפרס הראשון בתחרות פול בן-חיים, על נגינת מוזיקה ישראלית. </target>
       </trans-unit>
       <trans-unit id="4526428650045202722" datatype="html">
-        <source>In 2006-2008, won several competitions, at the Buchmann-Mehta School of Music. Including first prizes for Solo Performance Competition 2006, Chamber Music Competition 2007 and Contemporary Music Competition 2008.</source>
-        <target> בשנים 2006-2008, זכתה במספר תחרויות, בבית הספר למוזיקה בוכמן-מאטה. כולל פרסים ראשונים בתחרות הביצוע הסולו 2006, תחרות המוזיקה הקאמרית 2007 ותחרות המוזיקה העכשווית 2008. </target>
+        <source>In 2006-2008, won several competitions, at the Buchmann-Mehta School of Music.
+          Including first prizes for Solo Performance Competition 2006, Chamber Music Competition
+          2007 and Contemporary Music Competition 2008.</source>
+        <target> בשנים 2006-2008, זכתה במספר תחרויות, בבית הספר למוזיקה בוכמן-מאטה. כולל פרסים
+          ראשונים בתחרות הביצוע הסולו 2006, תחרות המוזיקה הקאמרית 2007 ותחרות המוזיקה העכשווית 2008. </target>
       </trans-unit>
       <trans-unit id="628668513986788842" datatype="html">
-        <source>In 2008, she was awarded for Excellence in the orchestral training program of the Buchmann-Mehta Symphony Orchestra.</source>
+        <source>In 2008, she was awarded for Excellence in the orchestral training program of the
+          Buchmann-Mehta Symphony Orchestra.</source>
         <target> בשנת 2008, הוענקה לה פרס על מצוינות בתוכנית ההכשרה לתזמורת של תזמורת בוכמן-מאטה. </target>
       </trans-unit>
       <trans-unit id="8020402390620783618" datatype="html">
@@ -236,32 +273,53 @@
         <target> יש לה תואר ראשון במוזיקה וניהול מאוניברסיטת תל אביב, בהצטיינות יתרה. </target>
       </trans-unit>
       <trans-unit id="7288265289547941343" datatype="html">
-        <source>Began her musical studies with Mrs. Hagit Ser. In 2002, graduated with honors from the Tel-Aviv-Jaffa Music Conservatory. During the years 2004-2008, studied at the Buchmann-Mehta School of Music in Tel-Aviv University, with Mr. Alon Bor, principal percussionist of The Israel Philharmonic Orchestra. Later on, she studied at the Conservatoire de Strasbourg with Prof. Emmanuel Sejourne and with Prof. Dominic Oelze, principal percussionist at the Staatskapelle Berlin.</source>
-        <target> תחילת לימודי המוזיקה שלה היו עם גב&apos; חגית שר. בשנת 2002, סיימה בהצטיינות את הקונסרבטוריון למוזיקה תל-אביב-יפו. במהלך השנים 2004-2008, למדה בבית הספר למוזיקה בוכמן-מאטה באוניברסיטת תל-אביב, עם מר אלון בור, פרקשניסט ראשי בתזמורת הפילהרמונית הישראלית. מאוחר יותר, למדה בקונסרבטואר של סטרסבורג עם פרופ&apos; עמנואל סייג&apos;ורן ועם פרופ&apos; דומיניק אולזה, פרקשניסט ראשי בתזמורת שטאטסקפל ברלין. </target>
+        <source>Began her musical studies with Mrs. Hagit Ser. In 2002, graduated with honors from
+          the Tel-Aviv-Jaffa Music Conservatory. During the years 2004-2008, studied at the
+          Buchmann-Mehta School of Music in Tel-Aviv University, with Mr. Alon Bor, principal
+          percussionist of The Israel Philharmonic Orchestra. Later on, she studied at the
+          Conservatoire de Strasbourg with Prof. Emmanuel Sejourne and with Prof. Dominic Oelze,
+          principal percussionist at the Staatskapelle Berlin.</source>
+        <target> תחילת לימודי המוזיקה שלה היו עם גב&apos; חגית שר. בשנת 2002, סיימה בהצטיינות את
+          הקונסרבטוריון למוזיקה תל-אביב-יפו. במהלך השנים 2004-2008, למדה בבית הספר למוזיקה
+          בוכמן-מאטה באוניברסיטת תל-אביב, עם מר אלון בור, פרקשניסט ראשי בתזמורת הפילהרמונית
+          הישראלית. מאוחר יותר, למדה בקונסרבטואר של סטרסבורג עם פרופ&apos; עמנואל סייג&apos;ורן ועם
+          פרופ&apos; דומיניק אולזה, פרקשניסט ראשי בתזמורת שטאטסקפל ברלין. </target>
       </trans-unit>
       <trans-unit id="8087978205159089880" datatype="html">
-        <source>In the years 2002-2004, was drafted to the I.D.F. Orchestra, where she performed all across Israel as well as abroad for two years.</source>
-        <target> בשנים 2002-2004, גויסה לתזמורת צה&quot;ל, שם הופיעה בכל רחבי ישראל כמו גם בחו&quot;ל במשך שנתיים. </target>
+        <source>In the years 2002-2004, was drafted to the I.D.F. Orchestra, where she performed all
+          across Israel as well as abroad for two years.</source>
+        <target> בשנים 2002-2004, גויסה לתזמורת צה&quot;ל, שם הופיעה בכל רחבי ישראל כמו גם
+          בחו&quot;ל במשך שנתיים. </target>
       </trans-unit>
       <trans-unit id="6847427729311902507" datatype="html">
-        <source>Ms. Schleien has participated in international Marimba and Percussion master classes with the Prof. Keiko Abe, Peter Sadlo, Bogdan Bacanu, Momoko Kamiya, Ludwig Albert, and in a Carnegie Hall work shop with Zakir Hussain.</source>
-        <target> גברת שליין השתתפה בסדנאות בינלאומיות למרימבה וכלי הקשה עם פרופ&apos; קייקו אבה, פטר סדלו, בוגדן בקנו, מומוקו קמיה, לודוויג אלברט, ובסדנת קרנגי הול עם זאקיר חוסיין. </target>
+        <source>Ms. Schleien has participated in international Marimba and Percussion master classes
+          with the Prof. Keiko Abe, Peter Sadlo, Bogdan Bacanu, Momoko Kamiya, Ludwig Albert, and in
+          a Carnegie Hall work shop with Zakir Hussain.</source>
+        <target> גברת שליין השתתפה בסדנאות בינלאומיות למרימבה וכלי הקשה עם פרופ&apos; קייקו אבה, פטר
+          סדלו, בוגדן בקנו, מומוקו קמיה, לודוויג אלברט, ובסדנת קרנגי הול עם זאקיר חוסיין. </target>
       </trans-unit>
       <trans-unit id="8881102896361678802" datatype="html">
         <source>Drum&apos;s House</source>
         <target> הבית של תוף </target>
       </trans-unit>
       <trans-unit id="862192174658568256" datatype="html">
-        <source>Come meet Drum, a little Tom-tom who invites you into his home to meet his whole family. His mom is a Xylophone and his dad is a Snare Drum and that is just the beginning. </source>
-        <target> בואו לפגוש את תוף, טום-טום קטן שמזמין אתכם לביתו לפגוש את כל משפחתו. אמא שלו היא קסילופון ואבא שלו הוא תוף מרים וזה רק ההתחלה. </target>
+        <source>Come meet Drum, a little Tom-tom who invites you into his home to meet his whole
+          family. His mom is a Xylophone and his dad is a Snare Drum and that is just the beginning. </source>
+        <target> בואו לפגוש את תוף, טום-טום קטן שמזמין אתכם לביתו לפגוש את כל משפחתו. אמא שלו היא
+          קסילופון ואבא שלו הוא תוף מרים וזה רק ההתחלה. </target>
       </trans-unit>
       <trans-unit id="1957084150975453736" datatype="html">
-        <source>Drum&apos;s House is an imaginative children&apos;s book, written in rhymes, by Noya Schleien, that teaches children about the world of Percussion Instruments. The cool rhythmic instruments come to life as characters in the family and as objects in the house. </source>
-        <target> בית התוף הוא ספר ילדים דמיוני, כתוב בחרוזים, מאת נויה שליין, המלמד ילדים על עולם כלי ההקשה. הכלים הקצביים המגניבים оживают כדמויות במשפחה וכחפצים בבית. </target>
+        <source>Drum&apos;s House is an imaginative children&apos;s book, written in rhymes, by Noya
+          Schleien, that teaches children about the world of Percussion Instruments. The cool
+          rhythmic instruments come to life as characters in the family and as objects in the house. </source>
+        <target> בית התוף הוא ספר ילדים דמיוני, כתוב בחרוזים, מאת נויה שליין, המלמד ילדים על עולם
+          כלי ההקשה. הכלים הקצביים המגניבים оживают כדמויות במשפחה וכחפצים בבית. </target>
       </trans-unit>
       <trans-unit id="4868011517375229383" datatype="html">
-        <source>Throughout the book, you can find QR codes. Scanning these codes leads to a series of videos introducing the Percussion Instruments with all of their charm! </source>
-        <target> במהלך הספר, תוכלו למצוא קודי QR. סריקת קודים אלו מובילה לסדרת סרטונים המוצגים את כלי ההקשה עם כל הקסם שלהם! </target>
+        <source>Throughout the book, you can find QR codes. Scanning these codes leads to a series
+          of videos introducing the Percussion Instruments with all of their charm! </source>
+        <target> במהלך הספר, תוכלו למצוא קודי QR. סריקת קודים אלו מובילה לסדרת סרטונים המוצגים את
+          כלי ההקשה עם כל הקסם שלהם! </target>
       </trans-unit>
       <trans-unit id="6824286190195922373" datatype="html">
         <source>The book is in now available in Hebrew. </source>
@@ -276,40 +334,84 @@
         <target> אתם מוזמנים להזמין את קונצרט בית התוף יחד עם הספר. </target>
       </trans-unit>
       <trans-unit id="2258591922498118059" datatype="html">
-        <source> To place an order – <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> +972544715150 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> noyaschleien@gmail.com </source>
-        <target> כדי לבצע הזמנה – <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> +972544715150 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> noyaschleien@gmail.com </target>
+        <source> To place an order – <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          +972544715150 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          noyaschleien@gmail.com </source>
+        <target> כדי לבצע הזמנה – <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          +972544715150 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          noyaschleien@gmail.com </target>
       </trans-unit>
       <trans-unit id="6664517834910210474" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>You can get a signed book!<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Don&apos;t forget to write who you want to dedicate the book to. </source>
-        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>אתם יכולים לקבל ספר חתום!<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אל תשכחו לכתוב למי אתם רוצים להקדיש את הספר. </target>
+        <source><x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;" />You can get a signed book!<x
+            id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" /><x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> Don&apos;t forget to write who you want to
+          dedicate the book to. </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;" />אתם
+          יכולים לקבל ספר חתום!<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" /><x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> אל תשכחו לכתוב למי אתם רוצים
+          להקדיש את הספר. </target>
       </trans-unit>
       <trans-unit id="4884880992966736613" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Price – <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The Drum&apos;s House Book - 20$ / 20€ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Buy in bulk – At least 30 books - 15$ / 15€ per book. </source>
-        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>מחיר – <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> ספר בית התוף - 20$ / 20€ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> קנייה בכמויות – לפחות 30 ספרים - 15$ / 15€ לספר. </target>
+        <source><x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;" />Price – <x id="CLOSE_TAG_SPAN"
+            ctype="x-span" equiv-text="&lt;/span&gt;" /><x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> The Drum&apos;s House Book - 20$ / 20€ <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> Buy in bulk – At least 30 books - 15$ / 15€ per
+          book. </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;" />מחיר
+          – <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" /><x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> ספר בית התוף - 20$ / 20€ <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> קנייה בכמויות – לפחות 30 ספרים - 15$ / 15€ לספר. </target>
       </trans-unit>
       <trans-unit id="7250907072288295400" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Delivery Options – <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> You can collect your order from Ramat Aviv, Israel - Free of charge. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Delivery inside of Israel – To your doorstep - 3$ / 3€ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Delivery outside of Israel - 9$ / 9€ </source>
-        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>אפשרויות משלוח – <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אתם יכולים לאסוף את ההזמנה שלכם מרמת אביב, ישראל - ללא תשלום. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> משלוח בתוך ישראל – עד הדלת שלכם - 3$ / 3€ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> משלוח מחוץ לישראל - 9$ / 9€ </target>
+        <source><x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;" />Delivery Options – <x
+            id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" /><x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> You can collect your order from Ramat Aviv, Israel
+          - Free of charge. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> Delivery inside
+          of Israel – To your doorstep - 3$ / 3€ <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> Delivery outside of Israel - 9$ / 9€ </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;" />אפשרויות
+          משלוח – <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" /><x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> אתם יכולים לאסוף את ההזמנה שלכם
+          מרמת אביב, ישראל - ללא תשלום. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          משלוח בתוך ישראל – עד הדלת שלכם - 3$ / 3€ <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> משלוח מחוץ לישראל - 9$ / 9€ </target>
       </trans-unit>
       <trans-unit id="8264527897621857568" datatype="html">
-        <source> For delivery purposes, please specify your full address - country, city, street, house number, zip code, telephone number, floor number, apartment number and, if there is one, building entry code. </source>
-        <target> למטרות משלוח, אנא ציינו את כתובתכם המלאה - מדינה, עיר, רחוב, מספר בית, מיקוד, מספר טלפון, מספר קומה, מספר דירה ואם יש, קוד כניסה לבניין. </target>
+        <source> For delivery purposes, please specify your full address - country, city, street,
+          house number, zip code, telephone number, floor number, apartment number and, if there is
+          one, building entry code. </source>
+        <target> למטרות משלוח, אנא ציינו את כתובתכם המלאה - מדינה, עיר, רחוב, מספר בית, מיקוד, מספר
+          טלפון, מספר קומה, מספר דירה ואם יש, קוד כניסה לבניין. </target>
       </trans-unit>
       <trans-unit id="6000788774363962307" datatype="html">
         <source>Drum&apos;s House Coloring Book </source>
         <target> ספר הצביעה של בית התוף </target>
       </trans-unit>
       <trans-unit id="3538562313491933510" datatype="html">
-        <source> The Drum&apos;s House Coloring Book is now available! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> With the original illustrations. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> You can now color all the cool characters in the story. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Price - 7$ / 7€ </source>
-        <target> ספר הצביעה של בית התוף זמין עכשיו! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> עם האיורים המקוריים. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> עכשיו אתם יכולים לצבוע את כל הדמויות המגניבות בסיפור. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> מחיר - 7$ / 7€ </target>
+        <source> The Drum&apos;s House Coloring Book is now available! <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> With the original illustrations. <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> You can now color all the cool characters in the
+          story. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> Price - 7$ / 7€ </source>
+        <target> ספר הצביעה של בית התוף זמין עכשיו! <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> עם האיורים המקוריים. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> עכשיו אתם יכולים לצבוע את כל הדמויות המגניבות בסיפור. <x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> מחיר - 7$ / 7€ </target>
       </trans-unit>
       <trans-unit id="3804929813210907066" datatype="html">
         <source>Concerts</source>
         <target> קונצרטים </target>
       </trans-unit>
       <trans-unit id="153374882521340078" datatype="html">
-        <source> Rhythmic concerts with multiple percussion. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Suitable for all ages. </source>
-        <target> קונצרטים קצביים עם המון כלי הקשה.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> מתאימים לכל גיל. </target>
+        <source> Rhythmic concerts with multiple percussion. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> Suitable for all ages. </source>
+        <target> קונצרטים קצביים עם המון כלי הקשה.<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> מתאימים לכל גיל. </target>
       </trans-unit>
       <trans-unit id="2436833449361675540" datatype="html">
         <source> Order a unique concert designed personally for your event. </source>
@@ -324,12 +426,17 @@
         <target>המופע הענק של נויה שליין</target>
       </trans-unit>
       <trans-unit id="8908607668950504705" datatype="html">
-        <source> A spectacular show with Marimba, Drums and lots of Percussion! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Featuring music from all over the world, from Bach to Piazzolla. </source>
-        <target> מופע מרהיב עם מרימבה, תופים והמון כלי הקשה!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> עם מוסיקה מכל רחבי העולם, מבאך ועד פיאצולה. </target>
+        <source> A spectacular show with Marimba, Drums and lots of Percussion! <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> Featuring music from all over the world, from Bach
+          to Piazzolla. </source>
+        <target> מופע מרהיב עם מרימבה, תופים והמון כלי הקשה!<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> עם מוסיקה מכל רחבי העולם, מבאך ועד פיאצולה. </target>
       </trans-unit>
       <trans-unit id="4825422054554231563" datatype="html">
-        <source>During the show, Schleien combines tap dancing and hosts other musicians - on flute, cello, another percussionist, and even a dancer! </source>
-        <target>במהלך המופע, שליין משלבת קטעי סטפס ותיפוף על הגוף, ומארחת נגנים נוספים - על חליל, צ&apos;לו וכלי הקשה, ואפילו רקדנית! </target>
+        <source>During the show, Schleien combines tap dancing and hosts other musicians - on flute,
+          cello, another percussionist, and even a dancer! </source>
+        <target>במהלך המופע, שליין משלבת קטעי סטפס ותיפוף על הגוף, ומארחת נגנים נוספים - על חליל,
+          צ&apos;לו וכלי הקשה, ואפילו רקדנית! </target>
       </trans-unit>
       <trans-unit id="1032471769071147341" datatype="html">
         <source>A unique concert designed personally for your event. </source>
@@ -344,19 +451,38 @@
         <target> במהלך הקונצרט נחשפים ההבדלים בין כלי הנשיפה, כלי המיתר וכלי ההקשה. </target>
       </trans-unit>
       <trans-unit id="3727707457799704742" datatype="html">
-        <source> Michal Berkovich Reznik - Flute<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Yoni Etzion - Cello<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Noya Schleien - Marimba &amp; Percussion </source>
-        <target> מיכל ברקוביץ&apos; רזניק - חליל<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> יוני עציון - צ&apos;לו<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> נויה שליין - מרימבה ותופים </target>
+        <source> Michal Berkovich Reznik - Flute<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> Yoni Etzion - Cello<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> Noya Schleien - Marimba &amp; Percussion </source>
+        <target> מיכל ברקוביץ&apos; רזניק - חליל<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> יוני עציון - צ&apos;לו<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> נויה שליין - מרימבה ותופים </target>
       </trans-unit>
       <trans-unit id="438499484446280885" datatype="html">
-        <source> &quot;Drum&apos;s house is very unique,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> It&apos;s not like any other house you meet.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Not like a house in the country, nor like one in the city,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Not like a house of a child or of an adult who&apos;s sixty. </source>
-        <target>&quot; הבית של תוף הוא בית מאוד מיוחד.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הוא לא דומה לבית של אף אחד.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> לא לבית בכפר, לא לבית בעיר.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> לא לבית של אדם מבוגר ולא לבית של ילד צעיר. </target>
+        <source> &quot;Drum&apos;s house is very unique,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> It&apos;s not like any other house you meet.<x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> Not like a house in the country,
+          nor like one in the city,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> Not like
+          a house of a child or of an adult who&apos;s sixty. </source>
+        <target>&quot; הבית של תוף הוא בית מאוד מיוחד.<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> הוא לא דומה לבית של אף אחד.<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> לא לבית בכפר, לא לבית בעיר.<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> לא לבית של אדם מבוגר ולא לבית של ילד צעיר. </target>
       </trans-unit>
       <trans-unit id="6294918477374159682" datatype="html">
-        <source> ...Drum wants you and his family to meet,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> But there is so much noise that he has to defeat.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> He starts beating over and over again the same beat,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Now everyone hears him, thanks to repeat.&quot; </source>
-        <target> תוף רוצה להכיר לכם את משפחתו...<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אך כשמנגנים כולם יחד, לא שומעים אותו.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הוא מקיש מקצב מיוחד שוב ושוב.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אז כולם מבינים שזה משהו חשוב. &quot; </target>
+        <source> ...Drum wants you and his family to meet,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> But there is so much noise that he has to defeat.<x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> He starts beating over and over
+          again the same beat,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> Now everyone
+          hears him, thanks to repeat.&quot; </source>
+        <target> תוף רוצה להכיר לכם את משפחתו...<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> אך כשמנגנים כולם יחד, לא שומעים אותו.<x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> הוא מקיש מקצב מיוחד שוב ושוב.<x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> אז כולם מבינים שזה משהו חשוב. &quot; </target>
       </trans-unit>
       <trans-unit id="2820043635980557534" datatype="html">
-        <source> Noya Schleien presents an amazing percussion show based on the book she wrote, Drum&apos;s House, with original music. </source>
+        <source> Noya Schleien presents an amazing percussion show based on the book she wrote,
+          Drum&apos;s House, with original music. </source>
         <target> נויה שליין במופע כלי הקשה מדהים, מבוסס על הספר שכתבה, הבית של תוף .עם מוסיקה מקורית </target>
       </trans-unit>
       <trans-unit id="9169930943848378489" datatype="html">
@@ -364,32 +490,47 @@
         <target> המופע מתאים לגילאי 8-4 </target>
       </trans-unit>
       <trans-unit id="895833292707000092" datatype="html">
-        <source> The show &quot;Drum&apos;s House&quot; was highly praised and received a commendation by the committee of the Israel&apos;s National Culture Program. </source>
-        <target> המופע &quot;הבית של תוף&quot; זכה לביקורות נלהבות וכן זכה בציון לשבח מהועדה של סל תרבות ארצי </target>
+        <source> The show &quot;Drum&apos;s House&quot; was highly praised and received a
+          commendation by the committee of the Israel&apos;s National Culture Program. </source>
+        <target> המופע &quot;הבית של תוף&quot; זכה לביקורות נלהבות וכן זכה בציון לשבח מהועדה של סל
+          תרבות ארצי </target>
       </trans-unit>
       <trans-unit id="2780692540131387322" datatype="html">
         <source>The Little Beat Beat</source>
         <target> ביט ביט הקטנה </target>
       </trans-unit>
       <trans-unit id="8518513929870516972" datatype="html">
-        <source> &quot;Little Beat Beat comes from a faraway country,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> where they speak kind of funky,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> you might even think it&apos;s funny a bit,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> but the Rhythm language is cool, you have to admit!&quot; </source>
-        <target> &quot;ביט ביט הקטנה, מגיעה מארץ רחוקה,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> שם מדברים בשפה קצת משונה,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אולי אפילו תחשבו שהיא מצחיקה,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אבל שפת הקצב היא שפה מדליקה!&quot; </target>
+        <source> &quot;Little Beat Beat comes from a faraway country,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> where they speak kind of funky,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> you might even think it&apos;s funny a bit,<x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> but the Rhythm language is cool, you have to
+          admit!&quot; </source>
+        <target> &quot;ביט ביט הקטנה, מגיעה מארץ רחוקה,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> שם מדברים בשפה קצת משונה,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> אולי אפילו תחשבו שהיא מצחיקה,<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> אבל שפת הקצב היא שפה מדליקה!&quot; </target>
       </trans-unit>
       <trans-unit id="7195785930491756446" datatype="html">
-        <source> A magical fairy tale, written in rhymes, about a girl who comes from a world that is all about rhythm. </source>
+        <source> A magical fairy tale, written in rhymes, about a girl who comes from a world that
+          is all about rhythm. </source>
         <target> סיפור בחרוזים מלא קסם, פרי עטה של נויה שליין, על ילדה שמגיעה מעולם שכולו קצב. </target>
       </trans-unit>
       <trans-unit id="3012381022261680593" datatype="html">
-        <source> The little Beat Beat does not understand Hebrew and nobody understands her. Throughout the concert, she meets new friends, who turn her journey into an adventure. </source>
-        <target> ביט ביט הקטנה לא מבינה עברית ולא מבינים אותה . במהלך הקונצרט, היא מכירה חברים חדשים, שהופכים את המסע להרפתקה </target>
+        <source> The little Beat Beat does not understand Hebrew and nobody understands her.
+          Throughout the concert, she meets new friends, who turn her journey into an adventure. </source>
+        <target> ביט ביט הקטנה לא מבינה עברית ולא מבינים אותה . במהלך הקונצרט, היא מכירה חברים
+          חדשים, שהופכים את המסע להרפתקה </target>
       </trans-unit>
       <trans-unit id="808689265282938797" datatype="html">
-        <source> Through the diverse pieces, the children will get acquainted with the Percussion family and learn the influence of rhythm on music. </source>
+        <source> Through the diverse pieces, the children will get acquainted with the Percussion
+          family and learn the influence of rhythm on music. </source>
         <target>דרך היצירות המגוונות יכירו הילדים את עולם כלי ההקשה ואת ההשפעה של הקצב על המוסיקה </target>
       </trans-unit>
       <trans-unit id="368535251648907289" datatype="html">
-        <source> With famous works such as The Bumble Bee by Rhymski Korsakov, Carmen by Bizet, The Four Seasons by Vivaldi, Eine Kline Nacht Musik by Mozart, Bolero by Ravel, etc. </source>
-        <target>בקונצרט משולבים קטעים מתוך יצירות מפורסמות, כמו מעוף הדבורה של רימסקי-קורסקוב, כרמן של ביזה, ארבע העונות של ויואלדי, מוסיקת לילה זעירה של מוצארט, בולרו של ראוול ועוד </target>
+        <source> With famous works such as The Bumble Bee by Rhymski Korsakov, Carmen by Bizet, The
+          Four Seasons by Vivaldi, Eine Kline Nacht Musik by Mozart, Bolero by Ravel, etc. </source>
+        <target>בקונצרט משולבים קטעים מתוך יצירות מפורסמות, כמו מעוף הדבורה של רימסקי-קורסקוב, כרמן
+          של ביזה, ארבע העונות של ויואלדי, מוסיקת לילה זעירה של מוצארט, בולרו של ראוול ועוד </target>
       </trans-unit>
       <trans-unit id="7710387977143146143" datatype="html">
         <source> Active participation of the audience during the show. </source>
@@ -408,27 +549,35 @@
         <target> קונצרט לילדים שכולו חגיגה! </target>
       </trans-unit>
       <trans-unit id="7499145005002585495" datatype="html">
-        <source> Throughout the concert Schleien demonstrates how music fits into the world of dance and how dance fits into the world of music. </source>
-        <target> לאורך הקונצרט מגלים כיצד המוסיקה משתלבת בעולם המחול וכיצד המחול משתלב בעולם המוסיקה. </target>
+        <source> Throughout the concert Schleien demonstrates how music fits into the world of dance
+          and how dance fits into the world of music. </source>
+        <target> לאורך הקונצרט מגלים כיצד המוסיקה משתלבת בעולם המחול וכיצד המחול משתלב בעולם
+          המוסיקה. </target>
       </trans-unit>
       <trans-unit id="6393393519923484015" datatype="html">
         <source> With a Chamber Orchestra </source>
         <target> עם צמד רקדנים ותזמורת קאמרית. </target>
       </trans-unit>
       <trans-unit id="2242399869818440726" datatype="html">
-        <source> Repertoire – Brahms&apos; Hungarian Dance, Saint-Saëns&apos; Le carnaval des animaux, Debussy&apos;s Petite Suite, Scott Joplin&apos;s Ragtime, collection of children&apos;s songs and more. </source>
-        <target> רפרטואר – ריקוד הונגרי של ברהמס, קרנבל החיות של סן סאנס, סוויטה קטנה של דביסי, רגטיים של סקוט ג&apos;ופלין, מחרוזת שירי ילדים ועוד. </target>
+        <source> Repertoire – Brahms&apos; Hungarian Dance, Saint-Saëns&apos; Le carnaval des
+          animaux, Debussy&apos;s Petite Suite, Scott Joplin&apos;s Ragtime, collection of
+          children&apos;s songs and more. </source>
+        <target> רפרטואר – ריקוד הונגרי של ברהמס, קרנבל החיות של סן סאנס, סוויטה קטנה של דביסי,
+          רגטיים של סקוט ג&apos;ופלין, מחרוזת שירי ילדים ועוד. </target>
       </trans-unit>
       <trans-unit id="218970837101596903" datatype="html">
         <source>The Magic Drum</source>
         <target> תוף הקסמים </target>
       </trans-unit>
       <trans-unit id="4972506233506529892" datatype="html">
-        <source> A musical play, written in rhymes, about a drum who likes to do magic. But his magic sometimes goes wrong, creating funny situations. </source>
-        <target> הצגה מוסיקלית לילדים, מבוססת על סיפור בחרוזים, על תוף שאוהב לעשות קסמים, שלפעמים קצת משתבשים ואז נוצרים מצבים מצחיקים! </target>
+        <source> A musical play, written in rhymes, about a drum who likes to do magic. But his
+          magic sometimes goes wrong, creating funny situations. </source>
+        <target> הצגה מוסיקלית לילדים, מבוססת על סיפור בחרוזים, על תוף שאוהב לעשות קסמים, שלפעמים
+          קצת משתבשים ואז נוצרים מצבים מצחיקים! </target>
       </trans-unit>
       <trans-unit id="6660267372803716368" datatype="html">
-        <source> The show combines children&apos;s songs as well as well-known classical orchestral pieces. </source>
+        <source> The show combines children&apos;s songs as well as well-known classical orchestral
+          pieces. </source>
         <target> במופע משולבים שירי ילדים מוכרים וקטעים מתוך יצירות מפורסמות. </target>
       </trans-unit>
       <trans-unit id="2763977017900736565" datatype="html">
@@ -495,10 +644,6 @@
         <source>Noya Schleien</source>
         <target> נויה שליין </target>
       </trans-unit>
-      <trans-unit id="8583634980263907303" datatype="html">
-        <source>עברית</source>
-        <target> English </target>
-      </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <target> בית </target>
@@ -548,15 +693,19 @@
         <target> קצב החיים </target>
       </trans-unit>
       <trans-unit id="6377225994689897720" datatype="html">
-        <source> Rhythm has such a huge impact on music. What kind of impact does it have on our lives? </source>
+        <source> Rhythm has such a huge impact on music. What kind of impact does it have on our
+          lives? </source>
         <target> לקצב יש השפעה כל כך גדולה על המוזיקה. איזו השפעה יש לו על חיינו? </target>
       </trans-unit>
       <trans-unit id="774516822755657098" datatype="html">
-        <source> Our health, relationships, diet, learning abilities, communication and business, all influenced by rhythm. </source>
-        <target> הבריאות שלנו, מערכות היחסים, התזונה, יכולות הלמידה, התקשורת והעסקים שלנו, כולם מושפעים על ידי הקצב. </target>
+        <source> Our health, relationships, diet, learning abilities, communication and business,
+          all influenced by rhythm. </source>
+        <target> הבריאות שלנו, מערכות היחסים, התזונה, יכולות הלמידה, התקשורת והעסקים שלנו, כולם
+          מושפעים על ידי הקצב. </target>
       </trans-unit>
       <trans-unit id="3476117612953979181" datatype="html">
-        <source> Once we realize the huge impact rhythm has on our lives, we can use it for our benefit. </source>
+        <source> Once we realize the huge impact rhythm has on our lives, we can use it for our
+          benefit. </source>
         <target> ברגע שנבין את ההשפעה הגדולה שיש לקצב על חיינו, נוכל להשתמש בזה לטובתנו. </target>
       </trans-unit>
       <trans-unit id="6774473991547658009" datatype="html">
@@ -576,15 +725,19 @@
         <target> גם האמן המוכשר ביותר צריך לבלות הרבה זמן בעשיית עסקים. </target>
       </trans-unit>
       <trans-unit id="3183073653959750186" datatype="html">
-        <source> Most artists try to avoid this, which causes them to lose opportunities, growth and money. </source>
+        <source> Most artists try to avoid this, which causes them to lose opportunities, growth and
+          money. </source>
         <target> רוב האמנים מנסים להימנע מזה, מה שגורם להם לאבד הזדמנויות, צמיחה וכסף. </target>
       </trans-unit>
       <trans-unit id="6655979119617511469" datatype="html">
-        <source> This lecture reveals classic business models, focusing on economics, strategy, and marketing, with the adaptation needed for the art world. </source>
-        <target> הרצאה זו חושפת מודלים עסקיים קלאסיים, תוך התמקדות בכלכלה, אסטרטגיה ושיווק, עם ההתאמות הנדרשות לעולם האמנות. </target>
+        <source> This lecture reveals classic business models, focusing on economics, strategy, and
+          marketing, with the adaptation needed for the art world. </source>
+        <target> הרצאה זו חושפת מודלים עסקיים קלאסיים, תוך התמקדות בכלכלה, אסטרטגיה ושיווק, עם
+          ההתאמות הנדרשות לעולם האמנות. </target>
       </trans-unit>
       <trans-unit id="8812043901221384774" datatype="html">
-        <source> Possible as a onetime lecture, just to get the taste of things, or as an in-depth course. </source>
+        <source> Possible as a onetime lecture, just to get the taste of things, or as an in-depth
+          course. </source>
         <target> אפשרי כהרצאה חד פעמית, רק כדי לקבל טעם של דברים, או כקורס מעמיק. </target>
       </trans-unit>
       <trans-unit id="7968522651209999505" datatype="html">
@@ -596,7 +749,8 @@
         <target> הרצאה מרתקת על כלי הקשה. </target>
       </trans-unit>
       <trans-unit id="4494531474031829989" datatype="html">
-        <source> Delivered by the international percussionist Noya Schleien, who combines musical pieces in her lecture. </source>
+        <source> Delivered by the international percussionist Noya Schleien, who combines musical
+          pieces in her lecture. </source>
         <target> מוגש על ידי הפרקשניסטית הבינלאומית נויה שליין, שמשלבת קטעים מוזיקליים בהרצאה שלה. </target>
       </trans-unit>
       <trans-unit id="4452427314943113135" datatype="html">
@@ -608,8 +762,12 @@
         <target> הבא </target>
       </trans-unit>
       <trans-unit id="69201950396478272" datatype="html">
-        <source> Cool rhythmic workshops with multiple percussion. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Suitable for all ages. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> No prior knowledge is needed. </source>
-        <target> סדנאות קצביות מגניבות עם כלי הקשה מרובים. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> מתאימות לכל הגילאים. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אין צורך בידע קודם. </target>
+        <source> Cool rhythmic workshops with multiple percussion. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> Suitable for all ages. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> No prior knowledge is needed. </source>
+        <target> סדנאות קצביות מגניבות עם כלי הקשה מרובים. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> מתאימות לכל הגילאים. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> אין צורך בידע קודם. </target>
       </trans-unit>
       <trans-unit id="3413330310651265357" datatype="html">
         <source> You are welcome to order a private or a couples workshop. </source>
@@ -628,8 +786,17 @@
         <target> חוויה מעצימה ומעשירה! </target>
       </trans-unit>
       <trans-unit id="5060896420380680144" datatype="html">
-        <source> Suitable from age 5 to 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> No prior knowledge is required. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The studio is located in North Tel Aviv. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop can be held in Hebrew or English. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop can be held in Hebrew or English. </source>
-        <target> מתאים מגיל 5 עד 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אין צורך בידע קודם. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסטודיו ממוקם בצפון תל אביב. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה יכולה להתקיים בעברית או באנגלית. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה יכולה להתקיים בעברית או באנגלית. </target>
+        <source> Suitable from age 5 to 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          No prior knowledge is required. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+          The studio is located in North Tel Aviv. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> The workshop can be held in Hebrew or English. <x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> The workshop can be held in Hebrew
+          or English. </source>
+        <target> מתאים מגיל 5 עד 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> אין
+          צורך בידע קודם. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> הסטודיו ממוקם
+          בצפון תל אביב. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> הסדנה יכולה
+          להתקיים בעברית או באנגלית. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> הסדנה
+          יכולה להתקיים בעברית או באנגלית. </target>
       </trans-unit>
       <trans-unit id="5195603902813084334" datatype="html">
         <source>A Morning of Rhythm</source>
@@ -640,16 +807,35 @@
         <target> סדנת זוגות + בראנץ&apos; טעים! </target>
       </trans-unit>
       <trans-unit id="5392146260246610282" datatype="html">
-        <source> An Introduction to Percussion Workshop with the international percussionist Noya Schleien. </source>
+        <source> An Introduction to Percussion Workshop with the international percussionist Noya
+          Schleien. </source>
         <target> סדנת היכרות עם כלי הקשה עם הפרקשניסטית הבינלאומית נויה שליין. </target>
       </trans-unit>
       <trans-unit id="4101212733295538155" datatype="html">
-        <source> And also, a brunch with tasty food from the best places in Tel Aviv. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop is suitable for couples, friends, parents and children, any two people who want to spend quality time together doing a cool and rhythmic activity. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop is suitable for ages 5 to 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> No prior knowledge is required. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The studio is located in North Tel Aviv. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop can be held in Hebrew or English. </source>
-        <target> וגם, בראנץ&apos; עם אוכל טעים מהמקומות הכי טובים בתל אביב. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה מתאימה לזוגות, חברים, הורים וילדים, כל שני אנשים שרוצים לבלות זמן איכות יחד בעשייה מגניבה וקצבית. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה מתאימה לגילאים 5 עד 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אין צורך בידע קודם. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסטודיו ממוקם בצפון תל אביב. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה יכולה להתקיים בעברית או באנגלית. </target>
+        <source> And also, a brunch with tasty food from the best places in Tel Aviv. <x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> The workshop is suitable for
+          couples, friends, parents and children, any two people who want to spend quality time
+          together doing a cool and rhythmic activity. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> The workshop is suitable for ages 5 to 120. <x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> No prior knowledge is required. <x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> The studio is located in North Tel
+          Aviv. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" /> The workshop can be held in
+          Hebrew or English. </source>
+        <target> וגם, בראנץ&apos; עם אוכל טעים מהמקומות הכי טובים בתל אביב. <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" /> הסדנה מתאימה לזוגות, חברים, הורים וילדים, כל שני
+          אנשים שרוצים לבלות זמן איכות יחד בעשייה מגניבה וקצבית. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> הסדנה מתאימה לגילאים 5 עד 120. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> אין צורך בידע קודם. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> הסטודיו ממוקם בצפון תל אביב. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> הסדנה יכולה להתקיים בעברית או באנגלית. </target>
       </trans-unit>
       <trans-unit id="8519328683674987744" datatype="html">
-        <source> For more details and to book the workshop:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> WhatsApp: +972544715150<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Email: noyaschleien@gmail.com </source>
-        <target> לפרטים נוספים ולהזמנת הסדנא- הסדנה:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> WhatsApp: +972544715150<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אימייל: noyaschleien@gmail.com </target>
+        <source> For more details and to book the workshop:<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> WhatsApp: +972544715150<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> Email: noyaschleien@gmail.com </source>
+        <target> לפרטים נוספים ולהזמנת הסדנא- הסדנה:<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> WhatsApp: +972544715150<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" /> אימייל: noyaschleien@gmail.com </target>
       </trans-unit>
       <trans-unit id="5316328589128361392" datatype="html">
         <source> It is possible to order a single lecture or a series of lectures. </source>
@@ -668,16 +854,21 @@
         <target> הבית של תוף​ - מאת נויה שליין </target>
       </trans-unit>
       <trans-unit id="3954996072853371526" datatype="html">
-        <source> Come meet Drum, a little Tom-tom who invites you into his home to meet his whole family. His mom is a Xylophone and his dad is a Snare Drum and that is just the beginning. </source>
-        <target> בואו לפגוש את תוף, תבקרו בבית שלו ותכירו את משפחתו.​ אמא של תוף היא קסילופון, אבא שלו הוא תוף סנר, וזוהי רק ההתחלה. </target>
+        <source> Come meet Drum, a little Tom-tom who invites you into his home to meet his whole
+          family. His mom is a Xylophone and his dad is a Snare Drum and that is just the beginning. </source>
+        <target> בואו לפגוש את תוף, תבקרו בבית שלו ותכירו את משפחתו.​ אמא של תוף היא קסילופון, אבא
+          שלו הוא תוף סנר, וזוהי רק ההתחלה. </target>
       </trans-unit>
       <trans-unit id="7812885212903849703" datatype="html">
         <source>Ruti Kadosh, Maariv</source>
         <target> רותי קדוש, מעריב </target>
       </trans-unit>
       <trans-unit id="1695590018824384529" datatype="html">
-        <source> &quot;When Noya Shlein was four years old, she received a toy xylophone as a gift, along with a sheet music booklet. This marked the beginning of a rich musical career.&quot; </source>
-        <target state="new"> כשנויה שליין הייתה בת ארבע, היא קיבלה קסילופון צעצוע במתנה, יחד עם חוברת תווים. זה היה תחילתה של קריירה מוזיקלית עשירה. </target>
+        <source> &quot;When Noya Shlein was four years old, she received a toy xylophone as a gift,
+          along with a sheet music booklet. This marked the beginning of a rich musical
+          career.&quot; </source>
+        <target state="new"> כשנויה שליין הייתה בת ארבע, היא קיבלה קסילופון צעצוע במתנה, יחד עם
+          חוברת תווים. זה היה תחילתה של קריירה מוזיקלית עשירה. </target>
       </trans-unit>
       <trans-unit id="7259070574332612781" datatype="html">
         <source> Rhythmic concerts with multiple percussion. Suitable for all ages. </source>
@@ -692,8 +883,9 @@
         <target> שלח (ובדוק את האימייל שלך...) </target>
       </trans-unit>
       <trans-unit id="809286842176081101" datatype="html">
-        <source>Image <x id="INTERPOLATION" equiv-text="{{i + 1}}"/></source>
-        <target> תמונה <x id="INTERPOLATION" equiv-text="{{i + 1}}"/> </target>
+        <source>Image <x id="INTERPOLATION" equiv-text="{{i + 1}}" /></source>
+        <target> תמונה <x id="INTERPOLATION" equiv-text="{{i + 1}}" />
+        </target>
       </trans-unit>
       <trans-unit id="7101514678290864976" datatype="html">
         <source> View </source>
@@ -728,7 +920,8 @@
         <target> ברוכות הבאות ! ברוכים הבאים ! </target>
       </trans-unit>
       <trans-unit id="3353306667303903700" datatype="html">
-        <source>When I was a little girl, I got as a present, a small colorful xylophone. That was it. I was hooked.</source>
+        <source>When I was a little girl, I got as a present, a small colorful xylophone. That was
+          it. I was hooked.</source>
         <target> כשהייתי ילדה קטנה, קיבלתי במתנה קסילופון צבעוני קטן. וזהו זה. התמכרתי. </target>
       </trans-unit>
       <trans-unit id="1802536184929367332" datatype="html">
@@ -736,7 +929,8 @@
         <target> מוסיקה לקחה ולוקחת חלק פעיל בחיי. שותפה לדרך. </target>
       </trans-unit>
       <trans-unit id="2945291928808717819" datatype="html">
-        <source>For me as an artist, the most exciting moment occurs while meeting you, the audience.</source>
+        <source>For me as an artist, the most exciting moment occurs while meeting you, the
+          audience.</source>
         <target> בשבילי כאמנית, הרגע המרגש ביותר מתרחש בפגישה אתכם ואתכן, הקהל. </target>
       </trans-unit>
       <trans-unit id="8265213940295486938" datatype="html">
@@ -748,20 +942,26 @@
         <target> תהנו, </target>
       </trans-unit>
       <trans-unit id="4032284118404381740" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-envelope-fill me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> noyaschleien@gmail.com</source>
-        <target state="new"> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-envelope-fill me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> noyaschleien@gmail.com </target>
+        <source><x id="START_ITALIC_TEXT" ctype="x-i"
+            equiv-text="&lt;i class=&quot;bi bi-envelope-fill me-2&quot;&gt;" /><x
+            id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;" /> noyaschleien@gmail.com</source>
+        <target state="new">
+          <x id="START_ITALIC_TEXT" ctype="x-i"
+            equiv-text="&lt;i class=&quot;bi bi-envelope-fill me-2&quot;&gt;" /><x
+            id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;" /> noyaschleien@gmail.com </target>
       </trans-unit>
       <trans-unit id="2218374075588703061" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-telephone-fill me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +972544715150</source>
-        <target state="new"> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-telephone-fill me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +972544715150 </target>
+        <source><x id="START_ITALIC_TEXT" ctype="x-i"
+            equiv-text="&lt;i class=&quot;bi bi-telephone-fill me-2&quot;&gt;" /><x
+            id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;" /> +972544715150</source>
+        <target state="new">
+          <x id="START_ITALIC_TEXT" ctype="x-i"
+            equiv-text="&lt;i class=&quot;bi bi-telephone-fill me-2&quot;&gt;" /><x
+            id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;" /> +972544715150 </target>
       </trans-unit>
       <trans-unit id="3967269098753656610" datatype="html">
         <source>Email address</source>
         <target state="new"> אימייל </target>
-      </trans-unit>
-      <trans-unit id="5866254605255506989" datatype="html">
-        <source>English</source>
-        <target state="new"> English </target>
       </trans-unit>
       <trans-unit id="115930618352415341" datatype="html">
         <source>Read More</source>
@@ -785,7 +985,8 @@
       </trans-unit>
       <trans-unit id="2918088395521204534" datatype="html">
         <source>(arr. for Flute &amp; Percussion - Noya Schleien) (Live)</source>
-        <target state="new">אסטור פיאצולה/ היסטוריה של הטנגו, בורדל 1900 (עיבוד לחליל וכלי הקשה - נויה שליין) (Live) </target>
+        <target state="new">אסטור פיאצולה/ היסטוריה של הטנגו, בורדל 1900 (עיבוד לחליל וכלי הקשה -
+          נויה שליין) (Live) </target>
       </trans-unit>
       <trans-unit id="8356340573545956424" datatype="html">
         <source>Noya Schleien Recordings</source>
@@ -805,8 +1006,10 @@
         </target>
       </trans-unit>
       <trans-unit id="2328551476282527474" datatype="html">
-        <source> &quot;An excellent artist… precision, youthful enthusiasm, and a great deal of talent and love for music. Wonderful.&quot; </source>
-        <target state="new"> אמנית מצוינת... דייקנות, התלהבות נעורים והרבה כישרון ואהבת מוזיקה. נפלא. </target>
+        <source> &quot;An excellent artist… precision, youthful enthusiasm, and a great deal of
+          talent and love for music. Wonderful.&quot; </source>
+        <target state="new"> אמנית מצוינת... דייקנות, התלהבות נעורים והרבה כישרון ואהבת מוזיקה.
+          נפלא. </target>
       </trans-unit>
       <trans-unit id="2849705136133174466" datatype="html">
         <source>Amit Salonim</source>
@@ -817,11 +1020,22 @@
         <target state="new"> וואלה </target>
       </trans-unit>
       <trans-unit id="7197310624040605657" datatype="html">
-        <source> &quot;Shlein’s talent when it comes to performance will captivate even the adults in the audience, especially when she stands behind the marimba — an instrument that very few people in the world choose to master, and one Shlein commands flawlessly. The sounds of the marimba transported me to Frank Zappa’s great albums, with the famous marimba player Ruth Underwood — something I never imagined I’d experience at a children’s show with a 3.5-year-old girl, who, as expected, came home and asked me to buy her a drum.&quot; </source>
-        <target state="new"> הכישרון של שליין בכל הנוגע לביצוע יהפנט גם את המבוגרים בקהל, בעיקר כששליין נעמדת מאחורי המרימבה - כלי שמעט מאוד אנשים בעולם בוחרים להתמקצע בו, ושליין שולטת בו בצורה מושלמת. הצלילים של המרימבה שלחו אותי לאלבומים הגדולים של פרנק זאפה, עם נגנית המרימבה המפורסמת רות אנדרווד, דבר שלא חשבתי שאחווה במופע ילדים עם ילדה בת 3.5, שחזרה הביתה, וכצפוי, ביקשה שאקנה לה תוף. </target>
+        <source> &quot;Shlein’s talent when it comes to performance will captivate even the adults
+          in the audience, especially when she stands behind the marimba — an instrument that very
+          few people in the world choose to master, and one Shlein commands flawlessly. The sounds
+          of the marimba transported me to Frank Zappa’s great albums, with the famous marimba
+          player Ruth Underwood — something I never imagined I’d experience at a children’s show
+          with a 3.5-year-old girl, who, as expected, came home and asked me to buy her a
+          drum.&quot; </source>
+        <target state="new"> הכישרון של שליין בכל הנוגע לביצוע יהפנט גם את המבוגרים בקהל, בעיקר
+          כששליין נעמדת מאחורי המרימבה - כלי שמעט מאוד אנשים בעולם בוחרים להתמקצע בו, ושליין שולטת
+          בו בצורה מושלמת. הצלילים של המרימבה שלחו אותי לאלבומים הגדולים של פרנק זאפה, עם נגנית
+          המרימבה המפורסמת רות אנדרווד, דבר שלא חשבתי שאחווה במופע ילדים עם ילדה בת 3.5, שחזרה
+          הביתה, וכצפוי, ביקשה שאקנה לה תוף. </target>
       </trans-unit>
       <trans-unit id="4538350595217633933" datatype="html">
-        <source>&quot;Noya Shlein, the “Pheno-Woman,” in a charming percussion show for the whole family with a hint of Frank Zappa.&quot; </source>
+        <source>&quot;Noya Shlein, the “Pheno-Woman,” in a charming percussion show for the whole
+          family with a hint of Frank Zappa.&quot; </source>
         <target state="new"> נויה שליין הפנו-וומן במופע תופים מקסים לכל המשפחה בניחוח פרנק זאפה. </target>
       </trans-unit>
       <trans-unit id="2401607061078970677" datatype="html">
@@ -829,8 +1043,13 @@
         <target state="new"> לקרוא לשליין &apos;מתופפת&apos; זה אנדרסטייטמנט מטורף. </target>
       </trans-unit>
       <trans-unit id="6162734999177571501" datatype="html">
-        <source>&quot;Shlein is a virtuoso percussion artist who masters many different instruments, and in addition to tap dancing, she also creates her own shows and composes original music. “The Drum’s Home” is an adaptation of a children’s book she wrote, in which—on top of all her talents—she also acts and sings.&quot; </source>
-        <target state="new"> שליין היא אמנית כלי הקשה וירטואוזית ששולטת בסוגים שונים של כלים, ובנוסף לריקודי סטפס היא גם יוצרת מופעים משלה, ומלחינה מוזיקה מקורית. &quot;הבית של תוף&quot; הוא עיבוד לספר ילדים שהיא כתבה, בו בנוסף לכל כישוריה היא גם משחקת ושרה. </target>
+        <source>&quot;Shlein is a virtuoso percussion artist who masters many different instruments,
+          and in addition to tap dancing, she also creates her own shows and composes original
+          music. “The Drum’s Home” is an adaptation of a children’s book she wrote, in which—on top
+          of all her talents—she also acts and sings.&quot; </source>
+        <target state="new"> שליין היא אמנית כלי הקשה וירטואוזית ששולטת בסוגים שונים של כלים, ובנוסף
+          לריקודי סטפס היא גם יוצרת מופעים משלה, ומלחינה מוזיקה מקורית. &quot;הבית של תוף&quot; הוא
+          עיבוד לספר ילדים שהיא כתבה, בו בנוסף לכל כישוריה היא גם משחקת ושרה. </target>
       </trans-unit>
       <trans-unit id="1707993919932407577" datatype="html">
         <source>&quot;A phenomenon. Or more precisely, a pheno-woman.&quot;</source>
@@ -841,8 +1060,13 @@
         <target state="new">איך סופרים את זה?</target>
       </trans-unit>
       <trans-unit id="5022691486548286761" datatype="html">
-        <source> A lecture combined with a practical workshop on rhythm, where participants learn how to feel, identify, count, and write rhythm in music and dance. It is mainly suitable for composers, musicians, choreographers, and dancers, as well as anyone who needs to work with rhythm but doesn’t know how. </source>
-        <target state="new"> הרצאה בשילוב סדנה מעשית בנושא קצב, בה לומדים כיצד להרגיש, לזהות, לספור ולכתוב את הקצב במוסיקה ובמחול. מתאימה בעיקר למלחינים, מוסיקאים, כוריאוגרפים ורקדנים, ולכל מי שצריך להשתמש בקצב ולא יודע איך. </target>
+        <source> A lecture combined with a practical workshop on rhythm, where participants learn
+          how to feel, identify, count, and write rhythm in music and dance. It is mainly suitable
+          for composers, musicians, choreographers, and dancers, as well as anyone who needs to work
+          with rhythm but doesn’t know how. </source>
+        <target state="new"> הרצאה בשילוב סדנה מעשית בנושא קצב, בה לומדים כיצד להרגיש, לזהות, לספור
+          ולכתוב את הקצב במוסיקה ובמחול. מתאימה בעיקר למלחינים, מוסיקאים, כוריאוגרפים ורקדנים, ולכל
+          מי שצריך להשתמש בקצב ולא יודע איך. </target>
       </trans-unit>
       <trans-unit id="140013407790566126" datatype="html">
         <source>Noya Schleien (featuring Liat Regev)</source>
@@ -869,7 +1093,8 @@
         <target state="new">&quot;זו היתה הרצאה מדהימה!&quot;</target>
       </trans-unit>
       <trans-unit id="6093333561887275056" datatype="html">
-        <source>&quot;The lecturer was articulate, pleasant, and very professional! It was truly fascinating to listen to her.&quot;</source>
+        <source>&quot;The lecturer was articulate, pleasant, and very professional! It was truly
+          fascinating to listen to her.&quot;</source>
         <target state="new">&quot;המרצה רהוטה, נעימה ומאוד מקצועית! ממש מעניין לשמוע אותה!&quot;</target>
       </trans-unit>
       <trans-unit id="8421745611588163189" datatype="html">
@@ -885,8 +1110,10 @@
         <target state="new">&quot;וואו. היה מרתק.&quot;</target>
       </trans-unit>
       <trans-unit id="7366113105823285991" datatype="html">
-        <source>&quot;Since yesterday, I can’t stop thinking about how everything in life has a rhythm, and how almost anything can be characterized by its own rhythm.&quot;</source>
-        <target state="new">&quot;מאתמול אני רק חושבת על זה שלכל דבר בחיים יש קצב ואפשר לאפיין כמעט כל דבר באמצעות הקצב שלו.&quot;</target>
+        <source>&quot;Since yesterday, I can’t stop thinking about how everything in life has a
+          rhythm, and how almost anything can be characterized by its own rhythm.&quot;</source>
+        <target state="new">&quot;מאתמול אני רק חושבת על זה שלכל דבר בחיים יש קצב ואפשר לאפיין כמעט
+          כל דבר באמצעות הקצב שלו.&quot;</target>
       </trans-unit>
       <trans-unit id="6462342954752264971" datatype="html">
         <source>&quot;The lecture was engaging, flowing, and rhythmic.&quot;</source>
@@ -897,15 +1124,18 @@
         <target state="new">&quot;נהנתי מכל רגע.&quot;</target>
       </trans-unit>
       <trans-unit id="7079446284874171523" datatype="html">
-        <source>&quot;The lecture was fascinating and to the point, filled with information and visual examples.&quot;</source>
+        <source>&quot;The lecture was fascinating and to the point, filled with information and
+          visual examples.&quot;</source>
         <target state="new">&quot;ההרצאה הייתה מרתקת ועניינית, רוויה במידע ודוגמאות ויזואליות.&quot;</target>
       </trans-unit>
       <trans-unit id="2291028281689167924" datatype="html">
-        <source>&quot;I was amazed by the healing process that music and rhythm offer to people with Parkinson’s.&quot;</source>
+        <source>&quot;I was amazed by the healing process that music and rhythm offer to people with
+          Parkinson’s.&quot;</source>
         <target state="new">&quot;הוקסמתי מהתהליך המרפא שיש למוזיקה וקצב על חולי פרקינסון.&quot;</target>
       </trans-unit>
       <trans-unit id="1302828042009249346" datatype="html">
-        <source>&quot;I enjoyed the entire workshop, which ended far too quickly — I’d be happy to have another one.&quot;</source>
+        <source>&quot;I enjoyed the entire workshop, which ended far too quickly — I’d be happy to
+          have another one.&quot;</source>
         <target state="new">&quot;נהנתי מכל הסדנא שנגמרה לי מהר מדי, אשמח לפעם נוספת.&quot;</target>
       </trans-unit>
       <trans-unit id="2016630683879540183" datatype="html">
@@ -921,12 +1151,17 @@
         <target state="new">&quot;נויה שליין מדהימה, צריך יותר משיעור אחד איתה.&quot;</target>
       </trans-unit>
       <trans-unit id="2800243417325435786" datatype="html">
-        <source>&quot;As someone with no sense of rhythm or coordination, the encounter with Noya was astonishing in terms of her performance abilities and thought-provoking in terms of her message.&quot;</source>
-        <target state="new">&quot;בתור חסרת כל חוש קצב וקואורדינציה, המפגש עם נויה היה מעורר השתאות בתחום הביצוע שלה ומעורר למחשבה מבחינת המסר.&quot;</target>
+        <source>&quot;As someone with no sense of rhythm or coordination, the encounter with Noya
+          was astonishing in terms of her performance abilities and thought-provoking in terms of
+          her message.&quot;</source>
+        <target state="new">&quot;בתור חסרת כל חוש קצב וקואורדינציה, המפגש עם נויה היה מעורר השתאות
+          בתחום הביצוע שלה ומעורר למחשבה מבחינת המסר.&quot;</target>
       </trans-unit>
       <trans-unit id="998080457938222662" datatype="html">
-        <source>&quot;It’s fascinating to think about the world through the lens of a “system of rhythms” operating in different levels of synchronization.&quot;</source>
-        <target state="new">&quot;מעניין לחשוב על העולם דרך הפריזמה של &apos;מערכת מקצבים&apos; שפועלת בסנכרון כזה או אחר.&quot;</target>
+        <source>&quot;It’s fascinating to think about the world through the lens of a “system of
+          rhythms” operating in different levels of synchronization.&quot;</source>
+        <target state="new">&quot;מעניין לחשוב על העולם דרך הפריזמה של &apos;מערכת מקצבים&apos;
+          שפועלת בסנכרון כזה או אחר.&quot;</target>
       </trans-unit>
       <trans-unit id="1986487345012028315" datatype="html">
         <source>&quot;It was captivating — an enriching and eye-opening experience.&quot;</source>
@@ -941,20 +1176,32 @@
         <target state="new">&quot;היא העבירה אותה בצורה מעניינת.&quot;</target>
       </trans-unit>
       <trans-unit id="1928427130814195593" datatype="html">
-        <source>&quot;The videos she shared were moving and illustrated the power of movement and the power of rhythm.&quot;</source>
-        <target state="new">&quot;הסרטונים ששיתפה ריגשו והראו את כוחה של התנועה, ואת כוחו של הקצב.&quot;</target>
+        <source>&quot;The videos she shared were moving and illustrated the power of movement and
+          the power of rhythm.&quot;</source>
+        <target state="new">&quot;הסרטונים ששיתפה ריגשו והראו את כוחה של התנועה, ואת כוחו של
+          הקצב.&quot;</target>
       </trans-unit>
       <trans-unit id="593732302316044999" datatype="html">
         <source>&quot;Noya Shlein’s class was truly interesting and mesmerizing.&quot;</source>
         <target state="new">&quot;השיעור של נויה שליין היה ממש מעניין ומהפנט.&quot;</target>
       </trans-unit>
       <trans-unit id="7164371677009664552" datatype="html">
-        <source>&quot;I discovered many new things — things that seem obvious and familiar — yet I never noticed until now that they all contain rhythm.&quot;</source>
-        <target state="new">&quot;גיליתי הרבה דברים חדשים שהם כביכול מובנים ומוכרים מאוד ולא שמתי לב עד כה שהם כוללים בתוכם קצב.&quot;</target>
+        <source>&quot;I discovered many new things — things that seem obvious and familiar — yet I
+          never noticed until now that they all contain rhythm.&quot;</source>
+        <target state="new">&quot;גיליתי הרבה דברים חדשים שהם כביכול מובנים ומוכרים מאוד ולא שמתי לב
+          עד כה שהם כוללים בתוכם קצב.&quot;</target>
       </trans-unit>
       <trans-unit id="1780303404721041731" datatype="html">
-        <source>A charming and musical book. The author, an international marimba and percussion musician, conveys through this book a broad range of information about rhythm, notes, various musical instruments, and the relationships between them. The book is very enjoyable and at the same time teaches children about the world of music, the possibilities inherent in the different instruments, and their unique shapes and sounds. A wonderful children’s book, highly recommended for all ages.</source>
-        <target state="new">ספר מקסים ומוסיקלי. הסופרת, נגנית בינלאומית של מרימבה וכלי הקשה, מעבירה דרך הספר הזה מידע רחב על קצב, תווים, על כלי נגינה שונים ועל היחסים שביניהם. הספר מהנה מאוד ותוך כדי כך מלמד את הילדים על עולם המוסיקה, על האפשרויות הגלומות בכלים השונים ועל צורותיהם וצליליהם המיוחדים. ספר ילדים נהדר, מומלץ מאוד לכל הגילים.</target>
+        <source>A charming and musical book. The author, an international marimba and percussion
+          musician, conveys through this book a broad range of information about rhythm, notes,
+          various musical instruments, and the relationships between them. The book is very
+          enjoyable and at the same time teaches children about the world of music, the
+          possibilities inherent in the different instruments, and their unique shapes and sounds. A
+          wonderful children’s book, highly recommended for all ages.</source>
+        <target state="new">ספר מקסים ומוסיקלי. הסופרת, נגנית בינלאומית של מרימבה וכלי הקשה, מעבירה
+          דרך הספר הזה מידע רחב על קצב, תווים, על כלי נגינה שונים ועל היחסים שביניהם. הספר מהנה מאוד
+          ותוך כדי כך מלמד את הילדים על עולם המוסיקה, על האפשרויות הגלומות בכלים השונים ועל צורותיהם
+          וצליליהם המיוחדים. ספר ילדים נהדר, מומלץ מאוד לכל הגילים.</target>
       </trans-unit>
       <trans-unit id="2803739713882525105" datatype="html">
         <source>Dr. Ilana Maor</source>
@@ -965,8 +1212,17 @@
         <target state="new">ביקורות וסקירות של ספרים</target>
       </trans-unit>
       <trans-unit id="7231892566430741677" datatype="html">
-        <source>A charming and enjoyable children’s book. Throughout the book, the text corresponds with the original, wonderful, and colorful illustrations by Rafael Miron and Jen Pantucha, which illuminate the story with a multitude of colors and add to its uniqueness. It introduces children to the world of percussion instruments. They especially enjoyed scanning the barcodes and watching the videos. Of course, it also sparked a strong desire in them to play percussion instruments themselves. You’ve been warned!</source>
-        <target state="new">ספר ילדים מקסים ומהנה. לאורך כל הספר מתכתב הטקסט עם האיורים המקוריים, הנפלאים והססגוניים של רפאל מירון וג&apos;ן פנטוחה שמאירים בשלל צבעים את הסיפור ומוסיפים לייחודיות שלו. עושה לילדים היכרות עם עולם כלי ההקשה. הם נהנו במיוחד לסרוק את הברקודים ולצפות בסרטונים. כמובן שהוא גם עורר אצלם רצון רב להקיש על כלי הקשה שונים בעצמם. ראו הוזהרתם!</target>
+        <source>A charming and enjoyable children’s book. Throughout the book, the text corresponds
+          with the original, wonderful, and colorful illustrations by Rafael Miron and Jen Pantucha,
+          which illuminate the story with a multitude of colors and add to its uniqueness. It
+          introduces children to the world of percussion instruments. They especially enjoyed
+          scanning the barcodes and watching the videos. Of course, it also sparked a strong desire
+          in them to play percussion instruments themselves. You’ve been warned!</source>
+        <target state="new">ספר ילדים מקסים ומהנה. לאורך כל הספר מתכתב הטקסט עם האיורים המקוריים,
+          הנפלאים והססגוניים של רפאל מירון וג&apos;ן פנטוחה שמאירים בשלל צבעים את הסיפור ומוסיפים
+          לייחודיות שלו. עושה לילדים היכרות עם עולם כלי ההקשה. הם נהנו במיוחד לסרוק את הברקודים
+          ולצפות בסרטונים. כמובן שהוא גם עורר אצלם רצון רב להקיש על כלי הקשה שונים בעצמם. ראו
+          הוזהרתם!</target>
       </trans-unit>
       <trans-unit id="2033513452802994388" datatype="html">
         <source>Orit Inbar</source>
@@ -977,8 +1233,13 @@
         <target state="new">החיים היפים</target>
       </trans-unit>
       <trans-unit id="3496349804803263553" datatype="html">
-        <source>A fun children’s book, full of rhymes, that takes the young reader into a pleasant world filled with music and creativity. The story is a huge celebration, full of sound and movement. The illustrations are wonderful, colorful, and full of life, and they enhanced the experience.</source>
-        <target state="new">ספר ילדים כיפי, מלא בחרוזים, שלוקח את הקורא הצעיר לעולם נעים, מלא במוזיקה ויצירתיות. הסיפור הוא חגיגה עצומה, מלאה בצליל ותנועה - דמיינתי את אלו. הציורים נפלאים, צבעוניים ומלאי חיים, ואלו העצימו את החוויה מול עיניי.</target>
+        <source>A fun children’s book, full of rhymes, that takes the young reader into a pleasant
+          world filled with music and creativity. The story is a huge celebration, full of sound and
+          movement. The illustrations are wonderful, colorful, and full of life, and they enhanced
+          the experience.</source>
+        <target state="new">ספר ילדים כיפי, מלא בחרוזים, שלוקח את הקורא הצעיר לעולם נעים, מלא
+          במוזיקה ויצירתיות. הסיפור הוא חגיגה עצומה, מלאה בצליל ותנועה - דמיינתי את אלו. הציורים
+          נפלאים, צבעוניים ומלאי חיים, ואלו העצימו את החוויה מול עיניי.</target>
       </trans-unit>
       <trans-unit id="3839557577904014649" datatype="html">
         <source>Yaelchi</source>
@@ -989,8 +1250,14 @@
         <target state="new">סקירות ספרים</target>
       </trans-unit>
       <trans-unit id="6330621728889286775" datatype="html">
-        <source>A charming children’s book that introduces children to the percussion family. The author is an international marimba and percussion artist, and her love for the world of percussion instruments is clearly felt. In the videos, she explains and demonstrates calmly and simply, producing various sounds. A delight.</source>
-        <target state="new">ספר ילדים מקסים המפגיש ילדים עם משפחת כלי ההקשה. מחברת הספר היא אמנית מרימבה וכלי הקשה בינלאומית. בספרה המיוחד הזה מורגשת אהבתה לעולם כלי ההקשה. בסרטונים היא מסבירה ומדגימה בנחת, בקלילות ובפשטות לילדים על הכלים השונים, מפיקה צלילים שונים להדגמה. תענוג.</target>
+        <source>A charming children’s book that introduces children to the percussion family. The
+          author is an international marimba and percussion artist, and her love for the world of
+          percussion instruments is clearly felt. In the videos, she explains and demonstrates
+          calmly and simply, producing various sounds. A delight.</source>
+        <target state="new">ספר ילדים מקסים המפגיש ילדים עם משפחת כלי ההקשה. מחברת הספר היא אמנית
+          מרימבה וכלי הקשה בינלאומית. בספרה המיוחד הזה מורגשת אהבתה לעולם כלי ההקשה. בסרטונים היא
+          מסבירה ומדגימה בנחת, בקלילות ובפשטות לילדים על הכלים השונים, מפיקה צלילים שונים להדגמה.
+          תענוג.</target>
       </trans-unit>
       <trans-unit id="4916127447709344743" datatype="html">
         <source>Shula Gold</source>
@@ -1001,8 +1268,18 @@
         <target state="new">שולה סוקרת</target>
       </trans-unit>
       <trans-unit id="3399730438926070122" datatype="html">
-        <source>Want to know which percussion instruments exist? What is a snare? What does the xylophone do? You’ll have to read the book and find out. The book is written in a flowing, light, and pleasant style, in rhymes and with vowelization. Each page includes a barcode linking to a video explaining the instrument. The illustrations are cheerful, colorful, and age-appropriate. I especially loved the story about Drum’s home and the joyful atmosphere.</source>
-        <target state="new">רוצים לדעת אלו כלי הקשה יש? מה זה סנר? מה עושה הקסילופון ועוד, תצטרכו לקרוא את הספר ולגלות. הספר כתוב בצורה זורמת וקלילה ונעימה לקריאה, בחרוזים ומנוקד. בפינת כל עמוד ישנו ברקוד לסריקה המביא לסרטון המסביר על העמוד שקראנו ועל כלי ההקשה. האיורים בספר יפים, עליזים וצבעוניים ומתאימים לסיפור ולגיל הקוראים. אהבתי את הסיפור על הבית של תוף שמלמד אותנו על משפחת כלי ההקשה והאוירה החיובית והשמחה של הסיפור וכן את הקישור לסרטונים המסבירים על המסופר בספר.</target>
+        <source>Want to know which percussion instruments exist? What is a snare? What does the
+          xylophone do? You’ll have to read the book and find out. The book is written in a flowing,
+          light, and pleasant style, in rhymes and with vowelization. Each page includes a barcode
+          linking to a video explaining the instrument. The illustrations are cheerful, colorful,
+          and age-appropriate. I especially loved the story about Drum’s home and the joyful
+          atmosphere.</source>
+        <target state="new">רוצים לדעת אלו כלי הקשה יש? מה זה סנר? מה עושה הקסילופון ועוד, תצטרכו
+          לקרוא את הספר ולגלות. הספר כתוב בצורה זורמת וקלילה ונעימה לקריאה, בחרוזים ומנוקד. בפינת כל
+          עמוד ישנו ברקוד לסריקה המביא לסרטון המסביר על העמוד שקראנו ועל כלי ההקשה. האיורים בספר
+          יפים, עליזים וצבעוניים ומתאימים לסיפור ולגיל הקוראים. אהבתי את הסיפור על הבית של תוף שמלמד
+          אותנו על משפחת כלי ההקשה והאוירה החיובית והשמחה של הסיפור וכן את הקישור לסרטונים המסבירים
+          על המסופר בספר.</target>
       </trans-unit>
       <trans-unit id="6534638653260368506" datatype="html">
         <source>Dafna Tegar</source>
@@ -1013,8 +1290,13 @@
         <target state="new">משחקים וספרים מומלצים לילדים</target>
       </trans-unit>
       <trans-unit id="5638016692602284007" datatype="html">
-        <source>A special and thought-provoking story. With unique humor, the author explains the different percussion instruments. Together with wonderful illustrations and scan codes on every page, the percussion family comes to life. A colorful, inviting, and wonderful book for every child.</source>
-        <target state="new">סיפור מיוחד ומעורר מחשבה. בהומור מיוחד מבארת ומתארת לילדים המחברת על כלי ההקשה המיוחדים והשונים אחד מהשני. ביחד עם איורים נפלאים וקודי סריקה הנמצאים בכל דף בסיפור קמים לתחיה המשפחה המופלאה תוך היכרות מופלאה איתם. ספר צבעוני מזמין ונפלא לכל ילד ילדה!</target>
+        <source>A special and thought-provoking story. With unique humor, the author explains the
+          different percussion instruments. Together with wonderful illustrations and scan codes on
+          every page, the percussion family comes to life. A colorful, inviting, and wonderful book
+          for every child.</source>
+        <target state="new">סיפור מיוחד ומעורר מחשבה. בהומור מיוחד מבארת ומתארת לילדים המחברת על כלי
+          ההקשה המיוחדים והשונים אחד מהשני. ביחד עם איורים נפלאים וקודי סריקה הנמצאים בכל דף בסיפור
+          קמים לתחיה המשפחה המופלאה תוך היכרות מופלאה איתם. ספר צבעוני מזמין ונפלא לכל ילד ילדה!</target>
       </trans-unit>
       <trans-unit id="2329363892686624916" datatype="html">
         <source>Siggy Kadosh</source>
@@ -1025,8 +1307,19 @@
         <target state="new">על החיים ומה שביניהם סקירות מרתקות</target>
       </trans-unit>
       <trans-unit id="5621766116515612472" datatype="html">
-        <source>Without a doubt, a happy and cheerful children’s book — a splendid musical celebration. The story of the young drum is heartwarming and amusing, written in rhymes and accompanied by beautiful illustrations. It teaches the beauty of rhythmic music and the important role of drums in every musical performance. Pure delight, especially with the musical videos accessible via scan codes.</source>
-        <target state="new">ללא ספק, זהו ספר ילדים שמח ועליז, ספר שכל כולו חגיגה מוזיקלית מרהיבה, ספר אשר יעודו העיקרי הוא לחשוף את ילדינו הקטנים לעולם העשיר של הנגינה בכלי ההקשה השונים והמגוונים. אכן, סיפורו של תוף הצעיר הוא סיפור מלבב ומשעשע, סיפור בחרוזים המלווים תמונות צבעוניות יפהפיות, סיפור המלמד את יופייה של המוזיקה הקצבית ואת תפקידם הבלתי מעורער של התופים על כל סוגיהם בכל מופע מוזיקלי קטן כגדול הנערך בכל הזמנים ובכל מקום בעולם. יופי של ספר, כיף גדול לעלעל בין דפיו, מה גם שקיימת כאן אופציה להשתמש בקוד הסריקה המיוחד דרכו ניתן לצפות בסרטונים מוזיקליים המציגים בפנינו כלי הקשה שונים. בקיצור- עונג צרוף ! בהחלט ממליצה מכל הלב.</target>
+        <source>Without a doubt, a happy and cheerful children’s book — a splendid musical
+          celebration. The story of the young drum is heartwarming and amusing, written in rhymes
+          and accompanied by beautiful illustrations. It teaches the beauty of rhythmic music and
+          the important role of drums in every musical performance. Pure delight, especially with
+          the musical videos accessible via scan codes.</source>
+        <target state="new">ללא ספק, זהו ספר ילדים שמח ועליז, ספר שכל כולו חגיגה מוזיקלית מרהיבה,
+          ספר אשר יעודו העיקרי הוא לחשוף את ילדינו הקטנים לעולם העשיר של הנגינה בכלי ההקשה השונים
+          והמגוונים. אכן, סיפורו של תוף הצעיר הוא סיפור מלבב ומשעשע, סיפור בחרוזים המלווים תמונות
+          צבעוניות יפהפיות, סיפור המלמד את יופייה של המוזיקה הקצבית ואת תפקידם הבלתי מעורער של
+          התופים על כל סוגיהם בכל מופע מוזיקלי קטן כגדול הנערך בכל הזמנים ובכל מקום בעולם. יופי של
+          ספר, כיף גדול לעלעל בין דפיו, מה גם שקיימת כאן אופציה להשתמש בקוד הסריקה המיוחד דרכו ניתן
+          לצפות בסרטונים מוזיקליים המציגים בפנינו כלי הקשה שונים. בקיצור- עונג צרוף ! בהחלט ממליצה
+          מכל הלב.</target>
       </trans-unit>
       <trans-unit id="7101318568265732031" datatype="html">
         <source>Yehudit Bagan</source>
@@ -1037,8 +1330,12 @@
         <target state="new">ספר פתוח</target>
       </trans-unit>
       <trans-unit id="5389791560963640466" datatype="html">
-        <source>Love to play music? Love drums and percussion? This lovely book is for you. Even curious readers who enjoy learning new things will love it. My children and I learned, were enchanted, and enjoyed both the book and the videos.</source>
-        <target state="new">אוהבים לנגן? אוהבים תופים וכלי הקשה? אוהבים מוזיקה? הספר המקסים הזה בשבילכם. וגם אם אתם רק סקרנים ואוהבים ללמוד ולהכיר דברים חדשים אז גם תהנו מהספר. אני וילדיי למדנו, החכמנו, הוקסמנו ונהננו הן מהספר והן מהסרטונים המשלימים את חווית הקריאה.</target>
+        <source>Love to play music? Love drums and percussion? This lovely book is for you. Even
+          curious readers who enjoy learning new things will love it. My children and I learned,
+          were enchanted, and enjoyed both the book and the videos.</source>
+        <target state="new">אוהבים לנגן? אוהבים תופים וכלי הקשה? אוהבים מוזיקה? הספר המקסים הזה
+          בשבילכם. וגם אם אתם רק סקרנים ואוהבים ללמוד ולהכיר דברים חדשים אז גם תהנו מהספר. אני
+          וילדיי למדנו, החכמנו, הוקסמנו ונהננו הן מהספר והן מהסרטונים המשלימים את חווית הקריאה.</target>
       </trans-unit>
       <trans-unit id="1086934503775053102" datatype="html">
         <source>Orna Shafi</source>
@@ -1049,8 +1346,14 @@
         <target state="new">פרלמנט הספרים</target>
       </trans-unit>
       <trans-unit id="4441700395104233788" datatype="html">
-        <source>This week I received Noya Shalein’s wonderful book and read it with my eldest grandson. We watched the videos and started tapping on anything we could find at home. A joyful rhyming story that sparks imagination. A unique experiential project that brings children closer to percussion instruments. An excellent musical book for every home.</source>
-        <target state="new">השבוע הגיע לידי הספר הנפלא של נויה שליין ואני הושבתי לצדי את תומס נכדי הבכור, פתחנו את הספר צפינו בסרטונים והתחלנו להקיש על כל מה שרק בחרנו והיה בהישג ידינו בבית. הבית של תוף הוא סיפור בחרוזים נפלא ושמח המעורר דמיון. פרויקט חוויתי נפלא וייחודי המקרב את הילדים אל משפחת כלי הקשה. ספר מוסיקלי מצויין חשוב בכל בית!</target>
+        <source>This week I received Noya Shalein’s wonderful book and read it with my eldest
+          grandson. We watched the videos and started tapping on anything we could find at home. A
+          joyful rhyming story that sparks imagination. A unique experiential project that brings
+          children closer to percussion instruments. An excellent musical book for every home.</source>
+        <target state="new">השבוע הגיע לידי הספר הנפלא של נויה שליין ואני הושבתי לצדי את תומס נכדי
+          הבכור, פתחנו את הספר צפינו בסרטונים והתחלנו להקיש על כל מה שרק בחרנו והיה בהישג ידינו
+          בבית. הבית של תוף הוא סיפור בחרוזים נפלא ושמח המעורר דמיון. פרויקט חוויתי נפלא וייחודי
+          המקרב את הילדים אל משפחת כלי הקשה. ספר מוסיקלי מצויין חשוב בכל בית!</target>
       </trans-unit>
       <trans-unit id="4650200054629999805" datatype="html">
         <source>Riki Baruch</source>
@@ -1061,8 +1364,15 @@
         <target state="new">בחירות נכונות</target>
       </trans-unit>
       <trans-unit id="2938289996967957256" datatype="html">
-        <source>A book for children — and not only. A three-dimensional enjoyment of fun, music, and creativity. The explanations and demonstrations are pleasant to the eye and ear. The sounds are created by the instrument, the material, the sticks, the hands — and the love of the player. A charming, fascinating, and unique book. Highly recommended.</source>
-        <target state="new">ספר לילדים ולא רק. ספר שכולו כיף, מוזיקה ויצירה. הנאה תלת ממדית! ההסברים וההדגמות של נויה שליין נעימים לעין ולאוזן. מה יוצר את הצלילים? הכלי עצמו, החומר ממנו עשוי, המקלות שבהם משתמשים לנגינה (לפעמים גם רק בידיים) ואם תשאלו אותי – גם המנגן ואהבתו לכלים אלה. כל כך מקסים הספר, מהמם ומרתק. אין בית שלא יוכל את השפעתו לספוג וממיוחדותו להנות. ממליצה בהתלהבות!</target>
+        <source>A book for children — and not only. A three-dimensional enjoyment of fun, music, and
+          creativity. The explanations and demonstrations are pleasant to the eye and ear. The
+          sounds are created by the instrument, the material, the sticks, the hands — and the love
+          of the player. A charming, fascinating, and unique book. Highly recommended.</source>
+        <target state="new">ספר לילדים ולא רק. ספר שכולו כיף, מוזיקה ויצירה. הנאה תלת ממדית! ההסברים
+          וההדגמות של נויה שליין נעימים לעין ולאוזן. מה יוצר את הצלילים? הכלי עצמו, החומר ממנו עשוי,
+          המקלות שבהם משתמשים לנגינה (לפעמים גם רק בידיים) ואם תשאלו אותי – גם המנגן ואהבתו לכלים
+          אלה. כל כך מקסים הספר, מהמם ומרתק. אין בית שלא יוכל את השפעתו לספוג וממיוחדותו להנות.
+          ממליצה בהתלהבות!</target>
       </trans-unit>
       <trans-unit id="5818518972211202213" datatype="html">
         <source>Ahuva Oberstein</source>
@@ -1073,8 +1383,14 @@
         <target state="new">סוקרת ספרים</target>
       </trans-unit>
       <trans-unit id="5469444681636294791" datatype="html">
-        <source>Who doesn’t love to beat on a drum? This beautifully illustrated book offers a visual and auditory glimpse into the percussion family. A multisensory pleasure. It teaches while providing pure enjoyment. The videos enrich both children and adults. One of the best books I’ve read to my grandchildren recently.</source>
-        <target state="new">מי לא אוהב להקיש על תוף? הספר אשר מאויר להפליא מזמן הצצה חזותית ושמיעתית אל המשפחה הגדולה בעולם המוסיקה שנקראת משפחת כלי ההקשה. הנאה רב חושית. ספר קסום, צבעוני ומושך עין ולב. מלמד מחד וגורם הנאה צרופה מאידך. הסרטונים מרתקים ומעשירים את עולם הילד וגם של המבוגר. ללא ספק אחד הספרים הטובים שהקראתי לנכדיי בתקופה האחרונה.</target>
+        <source>Who doesn’t love to beat on a drum? This beautifully illustrated book offers a
+          visual and auditory glimpse into the percussion family. A multisensory pleasure. It
+          teaches while providing pure enjoyment. The videos enrich both children and adults. One of
+          the best books I’ve read to my grandchildren recently.</source>
+        <target state="new">מי לא אוהב להקיש על תוף? הספר אשר מאויר להפליא מזמן הצצה חזותית ושמיעתית
+          אל המשפחה הגדולה בעולם המוסיקה שנקראת משפחת כלי ההקשה. הנאה רב חושית. ספר קסום, צבעוני
+          ומושך עין ולב. מלמד מחד וגורם הנאה צרופה מאידך. הסרטונים מרתקים ומעשירים את עולם הילד וגם
+          של המבוגר. ללא ספק אחד הספרים הטובים שהקראתי לנכדיי בתקופה האחרונה.</target>
       </trans-unit>
       <trans-unit id="6185677742161831978" datatype="html">
         <source>Rachel Rozilio</source>
@@ -1089,7 +1405,8 @@
         <target state="new">זוכת מענקי קרן רבינוביץ לאמנויות בשנים 2018-2017. </target>
       </trans-unit>
       <trans-unit id="8729959535431828638" datatype="html">
-        <source>Recipient of the American-Israel Culture Foundation Scholarships in the years 2006-2010.</source>
+        <source>Recipient of the American-Israel Culture Foundation Scholarships in the years
+          2006-2010.</source>
         <target state="new">זוכת מענקי קרן התרבות אמריקה-ישראל בין השנים 2010-2006. </target>
       </trans-unit>
       <trans-unit id="809439334962748316" datatype="html">
@@ -1098,36 +1415,24 @@
       </trans-unit>
       <trans-unit id="2176030152493131427" datatype="html">
         <source> Fascinating lectures: </source>
-        <target state="new">הרצאות מרתקות:
-
- </target>
+        <target state="new">הרצאות מרתקות: </target>
       </trans-unit>
       <trans-unit id="4330260228784499838" datatype="html">
         <source> Life&apos;s Rhythm </source>
-        <target state="new"> קצב החיים
-
-</target>
+        <target state="new"> קצב החיים </target>
       </trans-unit>
       <trans-unit id="4235741843746500061" datatype="html">
         <source> Arts &amp; Business </source>
-        <target state="new">אמנויות ועסקים
-
- </target>
+        <target state="new">אמנויות ועסקים </target>
       </trans-unit>
       <trans-unit id="1846640951324607997" datatype="html">
         <source> Percussion </source>
-        <target state="new"> כלי הקשה
-
- </target>
+        <target state="new"> כלי הקשה </target>
       </trans-unit>
       <trans-unit id="8814448180636620779" datatype="html">
         <source> How to count this? </source>
-        <target state="new"> איך סופרים את זה?
-
-</target>
+        <target state="new"> איך סופרים את זה? </target>
       </trans-unit>
-
-      <!-- ...existing code... -->
       <trans-unit id="desktopLanguageSwitcherText" datatype="html">
         <source>עברית</source>
         <target>English</target>
@@ -1139,6 +1444,39 @@
       <trans-unit id="languageSwitcherLink" datatype="html">
         <source>http://50.63.8.92/plesk-site-preview/noyaschleien.com/he</source>
         <target>http://50.63.8.92/plesk-site-preview/noyaschleien.com/en-US</target>
+      </trans-unit>
+      <trans-unit id="7660750978041097173" datatype="html">
+        <source>Join Our Communities</source>
+        <target state="new">הצטרפו לקהילות שלנו</target>
+      </trans-unit>
+      <trans-unit id="8812092358829260819" datatype="html">
+        <source>Connect with like-minded people and be part of our growing Facebook groups</source>
+        <target state="new">התחברו לאנשים בעלי תחומי עניין משותפים והיו חלק מקבוצות הפייסבוק הצומחות
+          שלנו</target>
+      </trans-unit>
+      <trans-unit id="6313620391447460034" datatype="html">
+        <source>For Artists</source>
+        <target state="new">לאמנים</target>
+      </trans-unit>
+      <trans-unit id="8831950662091840345" datatype="html">
+        <source>Join Israel Arts &amp; Business Community</source>
+        <target state="new">הצטרפו לקהילת אמנות ועסקים ישראל</target>
+      </trans-unit>
+      <trans-unit id="4129610952696995178" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i"
+            equiv-text="&lt;i class=&quot;bi bi-box-arrow-up-right&quot;&gt;" /><x
+            id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;" /> Join Group </source>
+        <target state="new"><x id="START_ITALIC_TEXT" ctype="x-i"
+            equiv-text="&lt;i class=&quot;bi bi-box-arrow-up-right&quot;&gt;" /><x
+            id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;" /> הצטרפו לקבוצה </target>
+      </trans-unit>
+      <trans-unit id="2179762327565297683" datatype="html">
+        <source>For Women</source>
+        <target state="new">לנשים</target>
+      </trans-unit>
+      <trans-unit id="3737319941629230230" datatype="html">
+        <source>Join Israeli Women Artists Community</source>
+        <target state="new">הצטרפו לקהילת נשים יוצרות בישראל</target>
       </trans-unit>
     </body>
   </file>

@@ -98,7 +98,11 @@ export class ContactFormComponent implements OnInit {
     const templateParams = {
       time: timeString,
       verification_code: code.toString(),
-      email: email
+      email: email,
+      please_description:$localize `To authenticate, please use the following Code:`,
+      time_description:`This Code will be valid for 15 minutes till `,
+      thanks_description:$localize `Thanks for visiting NoyaSchleien.com!`,
+      notShare_description:$localize `Do not share this Code with anyone. If you didn't make this request, you can safely ignore this email.`,
     };
 
     // Send verification email using EmailJS

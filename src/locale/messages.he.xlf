@@ -1478,6 +1478,21 @@
         <source>Join Israeli Women Artists Community</source>
         <target state="new">הצטרפו לקהילת נשים יוצרות בישראל</target>
       </trans-unit>
+      <trans-unit id="8245753501044410365" datatype="html">
+        <source>To authenticate, please use the following Code:</source>
+        <target state="new">כדי לאמת, נא להשתמש בקוד הבא:</target>
+      </trans-unit>
+      <trans-unit id="1351450902480686251" datatype="html">
+        <source>Thanks for visiting NoyaSchleien.com!</source>
+        <target state="new">תודה שביקרת ב-NoyaSchleien.com!</target>
+      </trans-unit>
+      <trans-unit id="7601157325298850346" datatype="html">
+        <source>Do not share this Code with anyone. If you didn&apos;t make this request, you can
+          safely ignore this email.</source>
+        <target state="new">
+          אל תשתף קוד זה עם אף אחד. אם לא הגשת בקשה זו, ניתן להתעלם בבטחה מהאימייל הזה.
+        </target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

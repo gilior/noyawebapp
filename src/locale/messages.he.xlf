@@ -671,8 +671,8 @@
         <source>Ruti Kadosh, Maariv</source>
         <target> רותי קדוש, מעריב </target>
       </trans-unit>
-      <trans-unit id="1695590018824384529" datatype="html">
-        <source> &quot;When Noya Shlein was four years old, she received a toy xylophone as a gift, along with a sheet music booklet. This marked the beginning of a rich musical career.&quot; </source>
+      <trans-unit id="four_years_old" datatype="html">
+        <source> &quot;When Noya Schleien was four years old, she received a toy xylophone as a gift, along with a sheet music booklet. This marked the beginning of a rich musical career.&quot; </source>
         <target state="new"> כשנויה שליין הייתה בת ארבע, היא קיבלה קסילופון צעצוע במתנה, יחד עם חוברת תווים. זה היה תחילתה של קריירה מוזיקלית עשירה. </target>
       </trans-unit>
       <trans-unit id="7259070574332612781" datatype="html">
@@ -808,20 +808,20 @@
         <source>Walla</source>
         <target state="new"> וואלה </target>
       </trans-unit>
-      <trans-unit id="7197310624040605657" datatype="html">
-        <source> &quot;Shlein’s talent when it comes to performance will captivate even the adults in the audience, especially when she stands behind the marimba — an instrument that very few people in the world choose to master, and one Shlein commands flawlessly. The sounds of the marimba transported me to Frank Zappa’s great albums, with the famous marimba player Ruth Underwood — something I never imagined I’d experience at a children’s show with a 3.5-year-old girl, who, as expected, came home and asked me to buy her a drum.&quot; </source>
+      <trans-unit id="captivate" datatype="html">
+        <source> &quot;Schleien’s talent when it comes to performance will captivate even the adults in the audience, especially when she stands behind the marimba — an instrument that very few people in the world choose to master, and one Schleien commands flawlessly. The sounds of the marimba transported me to Frank Zappa’s great albums, with the famous marimba player Ruth Underwood — something I never imagined I’d experience at a children’s show with a 3.5-year-old girl, who, as expected, came home and asked me to buy her a drum.&quot; </source>
         <target state="new"> הכישרון של שליין בכל הנוגע לביצוע יהפנט גם את המבוגרים בקהל, בעיקר כששליין נעמדת מאחורי המרימבה - כלי שמעט מאוד אנשים בעולם בוחרים להתמקצע בו, ושליין שולטת בו בצורה מושלמת. הצלילים של המרימבה שלחו אותי לאלבומים הגדולים של פרנק זאפה, עם נגנית המרימבה המפורסמת רות אנדרווד, דבר שלא חשבתי שאחווה במופע ילדים עם ילדה בת 3.5, שחזרה הביתה, וכצפוי, ביקשה שאקנה לה תוף. </target>
       </trans-unit>
-      <trans-unit id="4538350595217633933" datatype="html">
-        <source>&quot;Noya Shlein, the “Pheno-Woman,” in a charming percussion show for the whole family with a hint of Frank Zappa.&quot; </source>
+      <trans-unit id="“Pheno_Woman" datatype="html">
+        <source>&quot;Noya Schleien, the “Pheno-Woman,” in a charming percussion show for the whole family with a hint of Frank Zappa.&quot; </source>
         <target state="new"> נויה שליין הפנו-וומן במופע תופים מקסים לכל המשפחה בניחוח פרנק זאפה. </target>
       </trans-unit>
-      <trans-unit id="2401607061078970677" datatype="html">
-        <source>&quot;Calling Shlein a “drummer” is a massive understatement.&quot; </source>
+      <trans-unit id="understatement" datatype="html">
+        <source>&quot;Calling Schleien a “drummer” is a massive understatement.&quot; </source>
         <target state="new"> לקרוא לשליין &apos;מתופפת&apos; זה אנדרסטייטמנט מטורף. </target>
       </trans-unit>
-      <trans-unit id="6162734999177571501" datatype="html">
-        <source>&quot;Shlein is a virtuoso percussion artist who masters many different instruments, and in addition to tap dancing, she also creates her own shows and composes original music. “The Drum’s Home” is an adaptation of a children’s book she wrote, in which—on top of all her talents—she also acts and sings.&quot; </source>
+      <trans-unit id="tap_dancing" datatype="html">
+        <source>&quot;Schleien is a virtuoso percussion artist who masters many different instruments, and in addition to tap dancing, she also creates her own shows and composes original music. “The Drum’s Home” is an adaptation of a children’s book she wrote, in which—on top of all her talents—she also acts and sings.&quot; </source>
         <target state="new"> שליין היא אמנית כלי הקשה וירטואוזית ששולטת בסוגים שונים של כלים, ובנוסף לריקודי סטפס היא גם יוצרת מופעים משלה, ומלחינה מוזיקה מקורית. &quot;הבית של תוף&quot; הוא עיבוד לספר ילדים שהיא כתבה, בו בנוסף לכל כישוריה היא גם משחקת ושרה. </target>
       </trans-unit>
       <trans-unit id="1707993919932407577" datatype="html">
@@ -852,8 +852,8 @@
         <source>Reshet Bet</source>
         <target state="new"> רשת ב </target>
       </trans-unit>
-      <trans-unit id="3888572143625681596" datatype="html">
-        <source>Students write about Noya Shlein’s lectures</source>
+      <trans-unit id="Students" datatype="html">
+        <source>Students write about Noya Schleien’s lectures</source>
         <target state="new">סטודנטים כותבים על ההרצאות של נויה שליין</target>
       </trans-unit>
       <trans-unit id="2483110923518261128" datatype="html">
@@ -908,8 +908,8 @@
         <source>&quot;The lecture was fascinating.&quot;</source>
         <target state="new">&quot;ההרצאה היתה מרתקת.&quot;</target>
       </trans-unit>
-      <trans-unit id="1480616751506175716" datatype="html">
-        <source>&quot;Noya Shlein is amazing — one session with her is not enough.&quot;</source>
+      <trans-unit id="amazing" datatype="html">
+        <source>&quot;Noya Schleien is amazing — one session with her is not enough.&quot;</source>
         <target state="new">&quot;נויה שליין מדהימה, צריך יותר משיעור אחד איתה.&quot;</target>
       </trans-unit>
       <trans-unit id="2800243417325435786" datatype="html">
@@ -924,8 +924,8 @@
         <source>&quot;It was captivating — an enriching and eye-opening experience.&quot;</source>
         <target state="new">&quot;היה מרתק. מפגש מעשיר ידע עולם.&quot;</target>
       </trans-unit>
-      <trans-unit id="2323129440697272435" datatype="html">
-        <source>&quot;Wow! I have to say that I really enjoyed Noya Shlein’s lecture.&quot;</source>
+      <trans-unit id="Wow" datatype="html">
+        <source>&quot;Wow! I have to say that I really enjoyed Noya Schleien’s lecture.&quot;</source>
         <target state="new">&quot;וואו! אני חייבת להגיד שממש נהנתי מההרצאה של נויה שליין.&quot;</target>
       </trans-unit>
       <trans-unit id="7326460680627013165" datatype="html">
@@ -936,8 +936,8 @@
         <source>&quot;The videos she shared were moving and illustrated the power of movement and the power of rhythm.&quot;</source>
         <target state="new">&quot;הסרטונים ששיתפה ריגשו והראו את כוחה של התנועה, ואת כוחו של הקצב.&quot;</target>
       </trans-unit>
-      <trans-unit id="593732302316044999" datatype="html">
-        <source>&quot;Noya Shlein’s class was truly interesting and mesmerizing.&quot;</source>
+      <trans-unit id="truly_interesting" datatype="html">
+        <source>&quot;Noya Schleien’s class was truly interesting and mesmerizing.&quot;</source>
         <target state="new">&quot;השיעור של נויה שליין היה ממש מעניין ומהפנט.&quot;</target>
       </trans-unit>
       <trans-unit id="7164371677009664552" datatype="html">

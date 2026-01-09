@@ -31,7 +31,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.nav-link:hover::after {
+.nav-link:not(.active):hover::after {
     width: 100%;
     left: 0;
 }

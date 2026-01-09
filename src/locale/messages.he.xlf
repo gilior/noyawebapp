@@ -623,9 +623,9 @@
         <source>An empowering and enriching experience!</source>
         <target> חוויה מעצימה ומעשירה! </target>
       </trans-unit>
-      <trans-unit id="5060896420380680144" datatype="html">
-        <source> Suitable from age 5 to 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> No prior knowledge is required. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The studio is located in North Tel Aviv. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop can be held in Hebrew or English. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop can be held in Hebrew or English. </source>
-        <target> מתאים מגיל 5 עד 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אין צורך בידע קודם. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסטודיו ממוקם בצפון תל אביב. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה יכולה להתקיים בעברית או באנגלית. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה יכולה להתקיים בעברית או באנגלית. </target>
+      <trans-unit id="workshop_5_120" datatype="html">
+        <source> Suitable from age 5 to 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> No prior knowledge is required. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The studio is located in North Tel Aviv. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> The workshop can be held in Hebrew or English. </source>
+        <target state="new"> מתאים מגיל 5 עד 120. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> אין צורך בידע קודם. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסטודיו ממוקם בצפון תל אביב. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> הסדנה יכולה להתקיים בעברית או באנגלית.</target>
       </trans-unit>
       <trans-unit id="5195603902813084334" datatype="html">
         <source>A Morning of Rhythm</source>
@@ -912,7 +912,7 @@
         <source>&quot;Noya Schleien is amazing — one session with her is not enough.&quot;</source>
         <target state="new">&quot;נויה שליין מדהימה, צריך יותר משיעור אחד איתה.&quot;</target>
       </trans-unit>
-      <trans-unit id="2800243417325435786" datatype="html">
+      <trans-unit id="rhythm_experience" datatype="html">
         <source>&quot;As someone with no sense of rhythm or coordination, the encounter with Noya was astonishing in terms of her performance abilities and thought-provoking in terms of her message.&quot;</source>
         <target state="new">&quot;בתור חסרת כל חוש קצב וקואורדינציה, המפגש עם נויה היה מעורר השתאות בתחום הביצוע שלה ומעורר למחשבה מבחינת המסר.&quot;</target>
       </trans-unit>
@@ -1162,9 +1162,24 @@
       </trans-unit>
       <trans-unit id="6018689144947524608" datatype="html">
         <source>This Code will be valid for 15 minutes till</source>
+        <target state="new"> הקוד יהיה תקף ל 15 דקות עד </target>
+      </trans-unit>
+      <trans-unit id="692790935585593269" datatype="html">
+        <source>Omer Shomeroni</source>
+        <target state="new">עומר שומרוני</target>
+      </trans-unit>
+      <trans-unit id="7193461156811271140" datatype="html">
+        <source>Globes</source>
+        <target state="new">גלובס</target>
+      </trans-unit>
+      <trans-unit id="workshop_more_details" datatype="html">
+        <source> For more details and to book the workshop:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> WhatsApp: +972544715150<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Email: noyaschleien@gmail.com </source>
         <target state="new">
-הקוד יהיה תקף ל 15 דקות עד 
-        </target>
+לפרטים נוספים והזמנת הסדנא - 
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> וואטסאפ 054-4715150
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+מייל  noyaschleien@gmail.com 
+ </target>
       </trans-unit>
     </body>
   </file>

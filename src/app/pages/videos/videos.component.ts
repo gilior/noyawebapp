@@ -8,6 +8,7 @@ interface Video {
   title: string;
   description: string;
   thumbnailUrl: string;
+  publishedAt: Date;
 }
 
 @Component({
@@ -30,7 +31,7 @@ export class VideosComponent implements OnInit {
   constructor(
     private youtubeService: YoutubeService,
     private sanitizer: DomSanitizer
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.loadVideos();
@@ -45,8 +46,10 @@ export class VideosComponent implements OnInit {
             id: item.snippet.resourceId.videoId,
             title: item.snippet.title,
             description: item.snippet.description,
-            thumbnailUrl: item.snippet.thumbnails.medium.url
-          }));
+            thumbnailUrl: item.snippet.thumbnails['medium'].url,
+            publishedAt: new Date(item.snippet.publishedAt)
+          }))
+            .sort((a: Video, b: Video) => b.publishedAt.getTime() - a.publishedAt.getTime());
           this.loading = false;
         },
         error: (err) => {

@@ -1,5 +1,7 @@
 .nav-link {
     color: white ;
+    position: relative;
+    transition: color 0.3s ease, transform 0.1s ease;
 }
 
 .navbar{
@@ -11,7 +13,27 @@
     border-top-width: thin;
 }
 .nav-link.active{
-    color: red;
+    color: #4db5ff;
+}
+
+.nav-link:active {
+    transform: scale(0.95);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 5px; /* Adjusts position from bottom edge */
+    left: 50%;
+    background-color: #4db5ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 .navbar-toggler-icon {

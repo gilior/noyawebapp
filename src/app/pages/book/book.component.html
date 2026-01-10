@@ -1,148 +1,204 @@
-<div class="row">
-    <div class="col-md-6 order-md-1 order-2">
-        <img src="https://static.wixstatic.com/media/6ddb5b_dcbb271af5894f1c9c234af38b4fac43~mv2.jpg/v1/fill/w_880,h_1260,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/6ddb5b_dcbb271af5894f1c9c234af38b4fac43~mv2.jpg"
-            class="img-fluid" alt="Responsive image">
-    </div>    <div class="col-md-6 order-md-2 order-1 d-flex flex-column justify-content-center">
-        <h2 i18n>Drum's House</h2>
-        <p i18n>Come meet Drum, a little Tom-tom who invites you into his home to meet his whole family. His mom is a
-            Xylophone and his dad is a Snare Drum and that is just the beginning.
-        </p>
-        <p i18n>Drum's House is an imaginative children's book, written in rhymes, by Noya Schleien, that teaches
-            children about the world of Percussion Instruments.
-            The cool rhythmic instruments come to life as characters in the family and as objects in the house.
-        </p>        <p i18n>Throughout the book, you can find QR codes. Scanning these codes leads to a series of videos introducing
-            the Percussion Instruments with all of their charm! 
-        </p>
-        <p i18n>The book is in now available in Hebrew.
-        </p>
-        <p i18n>Recommended for children aged 4-8.
-        </p>
-        <p i18n>You are welcome to order the Drum's House Concert along with the book.
-        </p>
-    </div>
-</div>
-<div class="row mt-4">
-    <img src="https://static.wixstatic.com/media/6ddb5b_fda5b6180a914a62a18b7353a7f9519b~mv2.jpg/v1/fill/w_1920,h_960,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ddb5b_fda5b6180a914a62a18b7353a7f9519b~mv2.jpg"
-        class="img-fluid" alt="Responsive image">
-</div>
-<div class="row mt-4">
-    <div class="col">
-        <div class="ratio ratio-4x3">
-            <iframe src="https://www.youtube.com/embed/xD0K80ekIHI?si=yxyq9fJDZ5Zxnp7x?rel=0&fs=0&iv_load_policy=3" title="YouTube video"
-                allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
-<div class="row mt-4">    <div class="col ">
-        <h1 i18n>
-            To place an order –
-            <br>
-            +972544715150
-            <br>
-            noyaschleien&commat;gmail.com
-        </h1>
-    </div>
-</div>
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills justify-content-center mb-4">
+    <li [ngbNavItem]="1">
+        <button ngbNavLink class="rounded-pill px-4" i18n>Drum's House</button>
+        <ng-template ngbNavContent>
+            <div class="row">
+                <div class="col-md-6 order-md-1 order-2">
+                    <img src="https://static.wixstatic.com/media/6ddb5b_dcbb271af5894f1c9c234af38b4fac43~mv2.jpg/v1/fill/w_880,h_1260,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/6ddb5b_dcbb271af5894f1c9c234af38b4fac43~mv2.jpg"
+                        class="img-fluid" alt="Responsive image">
+                </div>    <div class="col-md-6 order-md-2 order-1 d-flex flex-column justify-content-center">
+                    <h2 i18n>Drum's House</h2>
+                    <p i18n>Come meet Drum, a little Tom-tom who invites you into his home to meet his whole family. His mom is a
+                        Xylophone and his dad is a Snare Drum and that is just the beginning.
+                    </p>
+                    <p i18n>Drum's House is an imaginative children's book, written in rhymes, by Noya Schleien, that teaches
+                        children about the world of Percussion Instruments.
+                        The cool rhythmic instruments come to life as characters in the family and as objects in the house.
+                    </p>        <p i18n>Throughout the book, you can find QR codes. Scanning these codes leads to a series of videos introducing
+                        the Percussion Instruments with all of their charm! 
+                    </p>
+                    <p i18n>The book is in now available in Hebrew.
+                    </p>
+                    <p i18n>Recommended for children aged 4-8.
+                    </p>
+                    <p i18n>You are welcome to order the Drum's House Concert along with the book.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <img src="https://static.wixstatic.com/media/6ddb5b_fda5b6180a914a62a18b7353a7f9519b~mv2.jpg/v1/fill/w_1920,h_960,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ddb5b_fda5b6180a914a62a18b7353a7f9519b~mv2.jpg"
+                    class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.youtube.com/embed/xD0K80ekIHI?si=yxyq9fJDZ5Zxnp7x?rel=0&fs=0&iv_load_policy=3" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">    <div class="col ">
+                    <h1 i18n>
+                        To place an order –
+                        <br>
+                        +972544715150
+                        <br>
+                        noyaschleien&commat;gmail.com
+                    </h1>
+                </div>
+            </div>
+            
+            <div class="row mt-4">    <div class="col ">
+                    <h4 i18n>
+                        <span class="fw-bold">You can get a signed book!</span>
+                        <br>
+                        Don't forget to write who you want to dedicate the book to.
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row mt-4">    <div class="col ">
+                    <p i18n>
+                        <span class="fw-bold">Price – </span>
+                        <br>
+                        The Drum's House Book - 20$ / 20€
+                        <br>
+                        Buy in bulk – At least 30 books - 15$ / 15€ per book.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row mt-4">    <div class="col ">
+                    <p i18n>
+                        <span class="fw-bold">Delivery Options – </span>
+                        <br>
+                        You can collect your order from Ramat Aviv, Israel - Free of charge.
+                        <br>
+                        Delivery inside of Israel – To your doorstep - 3$ / 3€
+                        <br>
+                        Delivery outside of Israel - 9$ / 9€
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row mt-4">    <div class="col ">
+                    <p i18n>
+                        For delivery purposes, please specify your full address - country, city, street, house number, zip code,
+                        telephone number, floor number, apartment number and, if there is one, building entry code.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row bg-main text-white p-3">    <div class="col-md-6 order-md-1 order-2">
+                    <h2 i18n>Drum's House Coloring Book </h2>
+                    <p i18n>
+                        The Drum's House Coloring Book is now available!
+                        <br>
+                        With the original illustrations.
+                        <br>
+                        You can now color all the cool characters in the story.
+                        <br>
+                        Price - 7$ / 7€
+                    </p>
+                </div>
+                <div class="col-md-6 order-md-2 order-1">
+                    <img src="https://static.wixstatic.com/media/6ddb5b_abc7739ce8c246c68e2f04232b7659bb~mv2.png/v1/fill/w_621,h_540,al_c,q_85,enc_auto/Drum's%20House%20Coloring%20Book.png"
+                        class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    Noya Schleien
+                    <br>
+                    Drum's House Page 1
+                    <br>
+                    Drum's House by Noya Schleien
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <audio controls class="w-100">
+                        <source src="https://music.wixstatic.com/preview/6ddb5b_b3f353e935724ec59d1b0a91130b1753-128.mp3
+                        " type="audio/mpeg" />
+                    </audio>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.youtube.com/embed/CNmPkOpOzto?si=aujhqNqsIksdY_S0?rel=0" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col">
+                    <h3 >
+                        To place an order –
+                        <br>
+                        +972544715150
+                        <br>
+                        noyaschleien&commat;gmail.com
+                    </h3>
+                </div>
+            </div>
+            
+            <noya-noya-book-reviews></noya-noya-book-reviews>
+        </ng-template>
+    </li>
+    <li [ngbNavItem]="2">
+        <button ngbNavLink class="rounded-pill px-4" i18n>The Magic Drum</button>
+        <ng-template ngbNavContent>
+            <!-- Content for The Magic Drum -->
+            <div class="container py-5 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="position-relative d-inline-block mb-4">
+                            <!-- Background Pulse simulating a drum beat/magic -->
+                            <div class="spinner-grow text-warning opacity-25 magic-pulse" role="status">
+                                <span class="visually-hidden">Magic...</span>
+                            </div>
+                            <!-- Icon -->
+                            <div class="position-absolute top-50 start-50 translate-middle">
+                                <i class="bi bi-music-note-beamed display-1"></i>
+                            </div>
+                            <!-- Magic Sparkles -->
+                            <i class="bi bi-stars text-warning fs-1 position-absolute top-0 start-100 translate-middle"></i>
+                            <i class="bi bi-magic text-info fs-3 position-absolute bottom-0 start-0 translate-middle"></i>
+                        </div>
+            
+                        <h2 class="display-3 fw-bold mb-2" i18n>The Magic Drum</h2>
+                        <h4 class="text-secondary fst-italic mb-5" i18n>Where every beat creates a spell...</h4>
+            
+                        <div class="card border-0 shadow bg-light rounded-4 mx-auto magic-card">
+                            <div class="card-body p-5">
+                                <p class="lead mb-4" i18n>
+                                    Prepare for a new rhythmic enchantment! <br>
+                                    Just like a Marimba's resonance fills the room, this story is currently gathering its notes.
+                                </p>
+                                
+                                <div class="d-flex justify-content-center gap-4 text-muted fs-4">
+                                    <i class="bi bi-music-note"></i>
+                                    <i class="bi bi-suit-heart-fill text-danger"></i>
+                                    <i class="bi bi-music-note"></i>
+                                </div>
+            
+                                <div class="mt-4 pt-4">
+                                    <span class="badge bg-secondary text-uppercase tracking-wide px-3 py-2 rounded-pill" i18n>Coming Soon</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </li>
+</ul>
 
-<div class="row mt-4">    <div class="col ">
-        <h4 i18n>
-            <span class="fw-bold">You can get a signed book!</span>
-            <br>
-            Don't forget to write who you want to dedicate the book to.
-        </h4>
-    </div>
-</div>
-
-<div class="row mt-4">    <div class="col ">
-        <p i18n>
-            <span class="fw-bold">Price – </span>
-            <br>
-            The Drum's House Book - 20$ / 20€
-            <br>
-            Buy in bulk – At least 30 books - 15$ / 15€ per book.
-        </p>
-    </div>
-</div>
-
-<div class="row mt-4">    <div class="col ">
-        <p i18n>
-            <span class="fw-bold">Delivery Options – </span>
-            <br>
-            You can collect your order from Ramat Aviv, Israel - Free of charge.
-            <br>
-            Delivery inside of Israel – To your doorstep - 3$ / 3€
-            <br>
-            Delivery outside of Israel - 9$ / 9€
-        </p>
-    </div>
-</div>
-
-<div class="row mt-4">    <div class="col ">
-        <p i18n>
-            For delivery purposes, please specify your full address - country, city, street, house number, zip code,
-            telephone number, floor number, apartment number and, if there is one, building entry code.
-        </p>
-    </div>
-</div>
-
-<div class="row bg-main text-white p-3">    <div class="col-md-6 order-md-1 order-2">
-        <h2 i18n>Drum's House Coloring Book </h2>
-        <p i18n>
-            The Drum's House Coloring Book is now available!
-            <br>
-            With the original illustrations.
-            <br>
-            You can now color all the cool characters in the story.
-            <br>
-            Price - 7$ / 7€
-        </p>
-    </div>
-    <div class="col-md-6 order-md-2 order-1">
-        <img src="https://static.wixstatic.com/media/6ddb5b_abc7739ce8c246c68e2f04232b7659bb~mv2.png/v1/fill/w_621,h_540,al_c,q_85,enc_auto/Drum's%20House%20Coloring%20Book.png"
-            class="img-fluid" alt="Responsive image">
-    </div>
-</div>
-<div class="row mt-4">
-    <div class="col">
-        Noya Schleien
-        <br>
-        Drum's House Page 1
-        <br>
-        Drum's House by Noya Schleien
-    </div>
-</div>
-<div class="row">
-    <div class="col">
-        <audio controls class="w-100">
-            <source src="https://music.wixstatic.com/preview/6ddb5b_b3f353e935724ec59d1b0a91130b1753-128.mp3
-            " type="audio/mpeg" />
-        </audio>
-    </div>
-    <div class="col-md-4">
-    </div>
-</div>
-
-<div class="row mt-4">
-    <div class="col">
-        <div class="ratio ratio-4x3">
-            <iframe src="https://www.youtube.com/embed/CNmPkOpOzto?si=aujhqNqsIksdY_S0?rel=0" title="YouTube video"
-                allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
-
-<div class="row mt-4">
-    <div class="col">
-        <h3 >
-            To place an order –
-            <br>
-            +972544715150
-            <br>
-            noyaschleien&commat;gmail.com
-        </h3>
-    </div>
-</div>
-
-<noya-noya-book-reviews></noya-noya-book-reviews>
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
 
 

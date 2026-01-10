@@ -950,7 +950,7 @@
       </trans-unit>
       <trans-unit id="2803739713882525105" datatype="html">
         <source>Dr. Ilana Maor</source>
-        <target state="new">ד&quot;ר אילנה מאור</target>
+        <target state="new">ד"ר אילנה מאור</target>
       </trans-unit>
       <trans-unit id="809822587383075747" datatype="html">
         <source>Book Reviews and Critiques</source>
@@ -1042,7 +1042,7 @@
       </trans-unit>
       <trans-unit id="4441700395104233788" datatype="html">
         <source>This week I received Noya Shalein’s wonderful book and read it with my eldest grandson. We watched the videos and started tapping on anything we could find at home. A joyful rhyming story that sparks imagination. A unique experiential project that brings children closer to percussion instruments. An excellent musical book for every home.</source>
-        <target state="new">השבוע הגיע לידי הספר הנפלא של נויה שליין ואני הושבתי לצדי את תומס נכדי הבכור, פתחנו את הספר צפינו בסרטונים והתחלנו להקיש על כל מה שרק בחרנו והיה בהישג ידינו בבית. הבית של תוף הוא סיפור בחרוזים נפלא ושמח המעורר דמיון. פרויקט חוויתי נפלא וייחודי המקרב את הילדים אל משפחת כלי הקשה. ספר מוסיקלי מצויין חשוב בכל בית!</target>
+        <target state="new">השבוע הגיע לידי הספר הנפלא של נויה שליין ואני הושבתי לצדי את תומס נכדי הבכור, פתחנו את הספר צפינו בסרטונים והתחלנו להקיש על כל מה שרק בחרנו והיה בהישג ידינו בבית. הבית של תוף הוא סיפור בחרוזים נפלא ושמח המעורר דמיון. פרויקט חוויתי נפלא וייחודי המקרב את הילדים אל משפחת כלי ההקשה. ספר מוסיקלי מצויין חשוב בכל בית!</target>
       </trans-unit>
       <trans-unit id="4650200054629999805" datatype="html">
         <source>Riki Baruch</source>
@@ -1174,12 +1174,19 @@
       </trans-unit>
       <trans-unit id="workshop_more_details" datatype="html">
         <source> For more details and to book the workshop:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> WhatsApp: +972544715150<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Email: noyaschleien@gmail.com </source>
-        <target state="new">
-לפרטים נוספים והזמנת הסדנא - 
-<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> וואטסאפ 054-4715150
-<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
-מייל  noyaschleien@gmail.com 
- </target>
+        <target state="new"> לפרטים נוספים והזמנת הסדנא - <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> וואטסאפ 054-4715150 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> מייל noyaschleien@gmail.com </target>
+      </trans-unit>
+      <trans-unit id="6135603660534177030" datatype="html">
+        <source>Where every beat creates a spell...</source>
+        <target state="new">איפה שכל פעימה יוצרת קסם...</target>
+      </trans-unit>
+      <trans-unit id="4413182507297039342" datatype="html">
+        <source> Prepare for a new rhythmic enchantment! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Just like a Marimba&apos;s resonance fills the room, this story is currently gathering its notes. </source>
+        <target state="new"> התכוננו לכישוף קצבי חדש! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> בדיוק כמו שהדהוד המרימבה ממלא את החדר, הסיפור הזה אוסף כעת את התווים שלו. </target>
+      </trans-unit>
+      <trans-unit id="5488887337214961987" datatype="html">
+        <source>Coming Soon</source>
+        <target state="new">בקרוב</target>
       </trans-unit>
     </body>
   </file>

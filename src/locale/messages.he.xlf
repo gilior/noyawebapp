@@ -435,17 +435,17 @@
         <source> With a Symphony Orchestra. </source>
         <target> בליווי תזמורת סימפונית. </target>
       </trans-unit>
-      <trans-unit id="5342432350421167093" datatype="html">
-        <source>First name</source>
-        <target> שם פרטי </target>
+      <trans-unit id="6028371114637047813" datatype="html">
+        <source>First Name</source>
+        <target state="new"> שם פרטי </target>
       </trans-unit>
       <trans-unit id="155380284446453225" datatype="html">
         <source>Looks good!</source>
         <target> נראה טוב! </target>
       </trans-unit>
-      <trans-unit id="3586674587150281199" datatype="html">
-        <source>Last name</source>
-        <target> שם משפחה </target>
+      <trans-unit id="4407559560004943843" datatype="html">
+        <source>Last Name</source>
+        <target state="new"> שם משפחה </target>
       </trans-unit>
       <trans-unit id="2314075913167237221" datatype="html">
         <source>City</source>
@@ -463,9 +463,9 @@
         <source>Message</source>
         <target> הודעה </target>
       </trans-unit>
-      <trans-unit id="2897783395829403632" datatype="html">
-        <source>Verification Code (sent to your email)</source>
-        <target> קוד אימות (נשלח לאימייל שלך) </target>
+      <trans-unit id="2925930112499163457" datatype="html">
+        <source>Verification Code (Sent To Your Email)</source>
+        <target state="new"> קוד אימות (נשלח לאימייל שלך) </target>
       </trans-unit>
       <trans-unit id="9219714938169265288" datatype="html">
         <source>Almost :)</source>
@@ -751,8 +751,8 @@
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-telephone-fill me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +972544715150</source>
         <target state="new"> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-telephone-fill me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +972544715150 </target>
       </trans-unit>
-      <trans-unit id="3967269098753656610" datatype="html">
-        <source>Email address</source>
+      <trans-unit id="4879517228803151475" datatype="html">
+        <source>Email Address</source>
         <target state="new"> אימייל </target>
       </trans-unit>
       <trans-unit id="115930618352415341" datatype="html">
@@ -950,7 +950,7 @@
       </trans-unit>
       <trans-unit id="2803739713882525105" datatype="html">
         <source>Dr. Ilana Maor</source>
-        <target state="new">ד"ר אילנה מאור</target>
+        <target state="new">ד&quot;ר אילנה מאור</target>
       </trans-unit>
       <trans-unit id="809822587383075747" datatype="html">
         <source>Book Reviews and Critiques</source>
@@ -1128,10 +1128,6 @@
         <source>Connect with like-minded people and be part of our growing Facebook groups</source>
         <target state="new">התחברו לאנשים בעלי תחומי עניין משותפים והיו חלק מקבוצות הפייסבוק הצומחות שלנו</target>
       </trans-unit>
-      <trans-unit id="6313620391447460034" datatype="html">
-        <source>For Artists</source>
-        <target state="new">לאמנים</target>
-      </trans-unit>
       <trans-unit id="8831950662091840345" datatype="html">
         <source>Join Israel Arts &amp; Business Community</source>
         <target state="new">הצטרפו לקהילת אמנות ועסקים ישראל</target>
@@ -1139,10 +1135,6 @@
       <trans-unit id="4129610952696995178" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-box-arrow-up-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Join Group </source>
         <target state="new"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-box-arrow-up-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> הצטרפו לקבוצה </target>
-      </trans-unit>
-      <trans-unit id="2179762327565297683" datatype="html">
-        <source>For Women</source>
-        <target state="new">לנשים</target>
       </trans-unit>
       <trans-unit id="3737319941629230230" datatype="html">
         <source>Join Israeli Women Artists Community</source>

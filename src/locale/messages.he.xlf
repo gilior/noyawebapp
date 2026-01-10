@@ -1105,8 +1105,8 @@
         <target>English</target>
       </trans-unit>
       <trans-unit id="languageSwitcherLink" datatype="html">
-        <source>http://50.63.8.92/plesk-site-preview/noyaschleien.com/he</source>
-        <target>http://50.63.8.92/plesk-site-preview/noyaschleien.com/en-US</target>
+        <source>http://noyaschleien.com/he</source>
+        <target>http://noyaschleien.com/en-US</target>
       </trans-unit>
       <trans-unit id="7660750978041097173" datatype="html">
         <source>Join Our Communities</source>

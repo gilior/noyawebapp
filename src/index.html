@@ -12,8 +12,81 @@
   <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap" rel="stylesheet">
   <script src="https://apis.google.com/js/api.js"></script>
 
+  <!-- Critical CSS for the loader (inline so it doesn't wait for external files) -->
+  <style>
+    /* Ensure the body fills the window so we can center the loader */
+    body, html { height: 100%; margin: 0; }
+    
+    .app-loading-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #fffcf8; /* A very warm, paper-white background */
+      overflow: hidden;
+    }
+
+    /* Wrapper for the rings */
+    .loader-rings {
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+
+    /* Outer delicate ring */
+    .loader-rings::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      border-top-color: #d4a373; /* Gold */
+      border-right-color: rgba(212, 163, 115, 0.2);
+      animation: spin 3s cubic-bezier(0.5, 0.2, 0.3, 1.0) infinite;
+    }
+
+    /* Inner delicate ring rotating opposite way */
+    .loader-rings::before {
+      content: "";
+      position: absolute;
+      top: 15px; left: 15px; right: 15px; bottom: 15px;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      border-bottom-color: #9c7c5b; /* Darker Gold/Bronze */
+      border-left-color: rgba(156, 124, 91, 0.1);
+      animation: spin 2s linear infinite reverse;
+    }
+
+    .app-loading-text {
+      margin-top: 10px;
+      color: #4a4a4a;
+      /* Using Great Vibes for an artistic/signature feel */
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5rem;
+      font-weight: normal;
+      animation: breathe 3s ease-in-out infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes breathe {
+      0%, 100% { opacity: 0.7; transform: scale(0.98); }
+      50% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+
 </head>
 <body>
-  <app-root class="d-flex flex-column h-100"></app-root>
+  <app-root class="d-flex flex-column h-100">
+    <!-- This content is automatically removed by Angular when the app is ready -->
+    <div class="app-loading-container">
+      <div class="loader-rings"></div>
+      <div class="app-loading-text">Noya</div>
+    </div>
+  </app-root>
 </body>
 </html>

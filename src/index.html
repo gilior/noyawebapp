@@ -78,7 +78,15 @@
       50% { opacity: 1; transform: scale(1); }
     }
   </style>
-
+<!-- Inside <head>, after existing scripts -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NSBK5FW0YZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NSBK5FW0YZ');
+</script>
 </head>
 <body>
   <app-root class="d-flex flex-column h-100">

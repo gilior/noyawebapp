@@ -1,12 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* Importing Bootstrap SCSS file. */
-
 // Your variable overrides
-$hr-margin-y:5px;
+$hr-margin-y: 5px;
 
-// Bootstrap and its default variables 
-@import 'bootstrap/scss/bootstrap';
+// Bootstrap – required configuration
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// Bootstrap – layout & base
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/images';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+
+// Bootstrap – components (only what's used)
+@import 'bootstrap/scss/forms/labels';
+@import 'bootstrap/scss/forms/form-text';
+@import 'bootstrap/scss/forms/form-control';
+@import 'bootstrap/scss/forms/form-select';
+@import 'bootstrap/scss/forms/form-check';
+@import 'bootstrap/scss/forms/floating-labels';
+@import 'bootstrap/scss/forms/input-group';
+@import 'bootstrap/scss/forms/validation';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/card';
+@import 'bootstrap/scss/badge';
+@import 'bootstrap/scss/alert';
+@import 'bootstrap/scss/close';
+@import 'bootstrap/scss/toasts';
+@import 'bootstrap/scss/modal';
+@import 'bootstrap/scss/carousel';
+@import 'bootstrap/scss/spinners';
+
+// Bootstrap – helpers & utility classes
+@import 'bootstrap/scss/helpers';
+@import 'bootstrap/scss/utilities/api';
+
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // Import shared styles

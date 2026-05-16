@@ -18,7 +18,6 @@ export class AppComponent {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
-        console.log(window.location.href);
         window.dataLayer.push({
           event: 'page_loaded',
           page_name: window.location.href,

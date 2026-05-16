@@ -1,26 +1,17 @@
+import '@angular/localize/init';
 import { Routes } from '@angular/router';
-import { NewsComponent } from './pages/news/news.component';
-import { CommunitiesComponent } from './pages/communities/communities.component';
-import { ContactComponent } from './pages/contact/contact.component';
-import { BioComponent } from './pages/bio/bio.component';
-import { BookComponent } from './pages/book/book.component';
-import { WorkshopsComponent } from './pages/workshops/workshops.component';
-import { LecturesComponent } from './pages/lectures/lectures.component';
-import { ConcertsComponent } from './pages/concerts/concerts.component';
-import { HomeComponent } from './pages/home/home.component';
-import { GalleryComponent } from './pages/gallery/gallery.component';
-import { VideosComponent } from './pages/videos/videos.component';
 
 export const routes: Routes = [
-    { path: 'home', component: HomeComponent },
-    { path: 'communities', component:CommunitiesComponent  },
-    { path: 'contact', component: ContactComponent },
-    { path: 'gallery', component:  GalleryComponent},
-    { path: 'videos', component: VideosComponent },
-    { path: 'bio', component:  BioComponent},
-    { path: 'book', component: BookComponent },
-    { path: 'workshops', component: WorkshopsComponent },
-    { path: 'lectures', component: LecturesComponent },
-    { path: 'concerts', component: ConcertsComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }, //
+    { path: 'home', loadComponent: () => import('./pages/home/home.component').then(m => m.HomeComponent), title: $localize`Home | Noya Schleien` },
+    { path: 'communities', loadComponent: () => import('./pages/communities/communities.component').then(m => m.CommunitiesComponent), title: $localize`Communities | Noya Schleien` },
+    { path: 'contact', loadComponent: () => import('./pages/contact/contact.component').then(m => m.ContactComponent), title: $localize`Contact | Noya Schleien` },
+    { path: 'gallery', loadComponent: () => import('./pages/gallery/gallery.component').then(m => m.GalleryComponent), title: $localize`Gallery | Noya Schleien` },
+    { path: 'videos', loadComponent: () => import('./pages/videos/videos.component').then(m => m.VideosComponent), title: $localize`Videos | Noya Schleien` },
+    { path: 'bio', loadComponent: () => import('./pages/bio/bio.component').then(m => m.BioComponent), title: $localize`Bio | Noya Schleien` },
+    { path: 'book', loadComponent: () => import('./pages/book/book.component').then(m => m.BookComponent), title: $localize`Book | Noya Schleien` },
+    { path: 'workshops', loadComponent: () => import('./pages/workshops/workshops.component').then(m => m.WorkshopsComponent), title: $localize`Workshops | Noya Schleien` },
+    { path: 'lectures', loadComponent: () => import('./pages/lectures/lectures.component').then(m => m.LecturesComponent), title: $localize`Lectures | Noya Schleien` },
+    { path: 'concerts', loadComponent: () => import('./pages/concerts/concerts.component').then(m => m.ConcertsComponent), title: $localize`Concerts | Noya Schleien` },
+    { path: 'news', loadComponent: () => import('./pages/news/news.component').then(m => m.NewsComponent), title: $localize`News | Noya Schleien` },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
   ];

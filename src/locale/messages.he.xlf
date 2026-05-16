@@ -1105,8 +1105,8 @@
         <target>English</target>
       </trans-unit>
       <trans-unit id="languageSwitcherLink" datatype="html">
-        <source>http://noyaschleien.com/he</source>
-        <target>http://noyaschleien.com/en-US</target>
+        <source>https://noyaschleien.com/he</source>
+        <target>https://noyaschleien.com/en-US</target>
       </trans-unit>
       <trans-unit id="7660750978041097173" datatype="html">
         <source>Join Our Communities</source>
@@ -1179,6 +1179,46 @@
       <trans-unit id="8363831019771821145" datatype="html">
         <source> ©<x id="INTERPOLATION" equiv-text="{{currentYear }}"/> by noyaschleien.com </source>
         <target state="new"> ©<x id="INTERPOLATION" equiv-text="{{currentYear }}"/> על ידי noyaschleien.com </target>
+      </trans-unit>
+      <trans-unit id="3901901476212719471" datatype="html">
+        <source>Home | Noya Schleien</source>
+        <target state="translated">בית | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="7460151867484821457" datatype="html">
+        <source>Communities | Noya Schleien</source>
+        <target state="translated">קהילות | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="3657568553870783051" datatype="html">
+        <source>Contact | Noya Schleien</source>
+        <target state="translated">צור קשר | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="7434039039990584175" datatype="html">
+        <source>Gallery | Noya Schleien</source>
+        <target state="translated">גלריה | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="7598826940242441738" datatype="html">
+        <source>Videos | Noya Schleien</source>
+        <target state="translated">סרטונים | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="764614534796681707" datatype="html">
+        <source>Bio | Noya Schleien</source>
+        <target state="translated">ביוגרפיה | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="706636837262789608" datatype="html">
+        <source>Book | Noya Schleien</source>
+        <target state="translated">ספר | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="5273236238640916788" datatype="html">
+        <source>Workshops | Noya Schleien</source>
+        <target state="translated">סדנאות | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="7212267131298233354" datatype="html">
+        <source>Lectures | Noya Schleien</source>
+        <target state="translated">הרצאות | נויה שליין</target>
+      </trans-unit>
+      <trans-unit id="4655891492985246529" datatype="html">
+        <source>Concerts | Noya Schleien</source>
+        <target state="translated">קונצרטים | נויה שליין</target>
       </trans-unit>
     </body>
   </file>

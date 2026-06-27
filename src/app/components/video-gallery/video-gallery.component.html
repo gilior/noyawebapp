@@ -17,10 +17,11 @@
 				<ng-container *ngIf="!loading && !errorMessage">
 					<section class="row g-4 align-items-center mb-5" *ngIf="selectedVideo">
 						<div class="col-lg-7">
-							<div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
+							<div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm position-relative">
 								<iframe [src]="selectedVideoUrl" title="YouTube video player" frameborder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowfullscreen></iframe>
+									style="pointer-events: none;"></iframe>
+								<div class="position-absolute top-0 start-0 w-100 h-100" aria-hidden="true"></div>
 							</div>
 						</div>
 						<div class="col-lg-5 text-lg-end text-white">

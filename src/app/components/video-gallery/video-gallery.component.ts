@@ -76,12 +76,16 @@ export class VideoGalleryComponent implements OnInit {
   private buildEmbedUrl(videoId: string, autoPlay = false): SafeResourceUrl {
     const params = new URLSearchParams({
       rel: '0',
-      modestbranding: '1',
-      autoplay: autoPlay ? '1' : '0'
+      controls: '0',
+      autoplay: autoPlay ? '1' : '0',
+      iv_load_policy: '3',
+      disablekb: '1',
+      fs: '0',
+      playsinline: '1',
     });
 
     return this.sanitizer.bypassSecurityTrustResourceUrl(
-      `https://www.youtube.com/embed/${videoId}?${params.toString()}`
+      `https://www.youtube-nocookie.com/embed/${videoId}?${params.toString()}`
     );
   }
 }

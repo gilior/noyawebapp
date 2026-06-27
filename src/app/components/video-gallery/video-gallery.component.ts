@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { YoutubeService } from '../../services/youtube.service';
@@ -12,9 +12,13 @@ import { YoutubeService } from '../../services/youtube.service';
   styleUrl: './video-gallery.component.scss'
 })
 export class VideoGalleryComponent implements OnInit {
+  @ViewChild('videoIframe') private videoIframe?: ElementRef<HTMLIFrameElement>;
+
   videos: YoutubeVideo[] = [];
   selectedVideo?: YoutubeVideo;
   selectedVideoUrl?: SafeResourceUrl;
+  isPlaying = false;
+  isMuted = false;
   loading = true;
   errorMessage = '';
 
@@ -48,6 +52,20 @@ export class VideoGalleryComponent implements OnInit {
   selectVideo(video: YoutubeVideo): void {
     this.selectedVideo = video;
     this.selectedVideoUrl = this.buildEmbedUrl(video.id, true);
+    this.isPlaying = true;
+    this.isMuted = false;
+  }
+
+  toggleMute(): void {
+    const iframe = this.videoIframe?.nativeElement;
+    if (!iframe?.contentWindow) return;
+    const command = this.isMuted ? 'unMute' : 'mute';
+    iframe.contentWindow.postMessage(
+      JSON.stringify({ event: 'command', func: command, args: [] }),
+      'https://www.youtube-nocookie.com'
+    );
+    this.isMuted = !this.isMuted;
+    this.changeDetectorRef.markForCheck();
   }
 
   trackByVideoId(_: number, video: YoutubeVideo): string {
@@ -75,6 +93,7 @@ export class VideoGalleryComponent implements OnInit {
 
   private buildEmbedUrl(videoId: string, autoPlay = false): SafeResourceUrl {
     const params = new URLSearchParams({
+        loop: '1',
       rel: '0',
       controls: '0',
       autoplay: autoPlay ? '1' : '0',
@@ -82,6 +101,8 @@ export class VideoGalleryComponent implements OnInit {
       disablekb: '1',
       fs: '0',
       playsinline: '1',
+      enablejsapi: '1',
+      origin: window.location.origin,
     });
 
     return this.sanitizer.bypassSecurityTrustResourceUrl(
